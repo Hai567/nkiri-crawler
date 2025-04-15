@@ -26,14 +26,14 @@ for url in urls:
     if url:
         ''' Extracts all episode links from the main page URL '''
         res = requests.get(url, verify=False)
+        series_name = urlparse(url).path.split("/")[1]
+        download_dir = f"./{series_name}"
+        os.makedirs(download_dir, exist_ok=True)
         
         soup = BeautifulSoup(res.text, "html.parser")
         episode_elements = soup.select("div > div.elementor > section.elementor-section.elementor-top-section.elementor-element.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-50.elementor-top-column.elementor-element > div > div > div > div > a")
         
         episode_urls = [element.get('href') for element in episode_elements if element.get('href')]
-        series_name = urlparse(episode_url).path.split("/")[1]
-        download_dir = f"./{series_name}"
-        os.makedirs(download_dir, exist_ok=True)
 
         for i, episode_url in enumerate(episode_urls):
             ''' Downloads an episode from Nkiri episode url '''
