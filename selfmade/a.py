@@ -31,8 +31,7 @@ for url in urls:
         os.makedirs(download_dir, exist_ok=True)
         
         soup = BeautifulSoup(res.text, "html.parser")
-        episode_elements = soup.select("div > div.elementor > section.elementor-section.elementor-top-section.elementor-element.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-50.elementor-top-column.elementor-element > div > div > div > div > a")
-        
+        episode_elements = soup.select("div > div.elementor > section.elementor-section.elementor-top-section.elementor-element.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-33.elementor-top-column.elementor-element > div > div > div > div > a")
         episode_urls = [element.get('href') for element in episode_elements if element.get('href')]
 
         for i, episode_url in enumerate(episode_urls):
@@ -42,7 +41,7 @@ for url in urls:
                 request_headers = {
                     "Content-Type": "application/x-www-form-urlencoded",
                 }
-                request_data = {}
+                request_body = {}
                 
                 episode_res = requests.get(episode_url, verify=False)
                 
@@ -52,10 +51,10 @@ for url in urls:
                 inputs = episode_form.select("input")
                 for input_tag in inputs:
                     if input_tag.get("name") and input_tag.get("value"):
-                        request_data[input_tag.get("name")] = input_tag.get("value")
+                        request_body[input_tag.get("name")] = input_tag.get("value")
                 
-                response = requests.post(headers=request_headers, data=request_data, stream=True, verify=False)
-                file_name = extract_filename(response, f"{series_name} E{0 if i < 9 else ''}{i+1}")
+                response = requests.post(episode_url, headers=request_headers, data=request_body, stream=True, verify=False)
+                file_name = extract_filename(response, f"{series_name} E{0 if i < 9 else ''}{i+1}.mkv")
                 file_path = os.path.join(download_dir, file_name)
                 
                 with open(file_path, "wb") as f:
@@ -64,22 +63,22 @@ for url in urls:
                 print(f"Downloaded: {file_name} to {file_path}")
                 subprocess.run(["rclone", "move", file_path, f"onedrive:nkiri/{series_name}", 
                                 "--progress", "--stats-one-line", "--stats=15s", "--retries", "3", 
-                                "--low-level-retries", "10", "--check", "--checksum", "--log-file=rclone-log.txt"
+                                "--low-level-retries", "10", "--checksum", "--log-file=rclone-log.txt"
                                 ])
             else:
                 # Direct download URL
-                    file_response = requests.get(episode_url, stream=True, verify=False)
-                    # Safely extract filename
-                    file_name = extract_filename(file_response, f"{series_name} E{0 if i < 9 else ''}{i+1}")
-                    file_path = os.path.join(download_dir, file_name)
-                    
-                    with open(file_path, "wb") as f:
-                        for chunk in file_response.iter_content(chunk_size=8192):
-                            f.write(chunk)
-                    print(f"Downloaded: {file_name} to {file_path}")
-                    subprocess.run(["rclone", "move", file_path, f"onedrive:nkiri/{series_name}", 
-                                    "--progress", "--stats-one-line", "--stats=15s", "--retries", "3", 
-                                    "--low-level-retries", "10", "--check", "--checksum", "--log-file=rclone-log.txt"
-                                    ])
+                file_response = requests.get(episode_url, stream=True, verify=False)
+                # Safely extract filename
+                file_name = extract_filename(file_response, f"{series_name} E{0 if i < 9 else ''}{i+1}.mkv")
+                file_path = os.path.join(download_dir, file_name)
+                
+                with open(file_path, "wb") as f:
+                    for chunk in file_response.iter_content(chunk_size=8192):
+                        f.write(chunk)
+                print(f"Downloaded: {file_name} to {file_path}")
+                subprocess.run(["rclone", "move", file_path, f"onedrive:nkiri/{series_name}", 
+                                "--progress", "--stats-one-line", "--stats=15s", "--retries", "3", 
+                                "--low-level-retries", "10", "--check", "--checksum", "--log-file=rclone-log.txt"
+                                ])
 
         print(f"Downloaded all episodes for {series_name}")
