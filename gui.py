@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 import sys
 import os
+
+# Set environment variable to suppress sipPyTypeDict() deprecation warnings
+os.environ["QT_ENABLE_DEPRECATED_WARNINGS"] = "0"
+
 import threading
 import time
 import re
@@ -9,7 +13,7 @@ from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, QH
                             QProgressBar, QFileDialog, QLabel, QLineEdit, QMessageBox,
                             QDialog, QTextEdit, QCheckBox, QProgressDialog, QSpinBox)
 from PyQt5.QtCore import Qt, QThread, pyqtSignal, pyqtSlot, QEvent, QMetaObject, Q_ARG
-from funcs import download_episode, extract_episodes, download_episode_with_progress
+from funcs import extract_episodes, download_episode_with_progress
 from urllib.parse import urlparse
 
 # Custom event for thread-safe addition of URLs

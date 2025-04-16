@@ -48,7 +48,7 @@ def download_file(url: str, output_path: str, headers: Optional[Dict[str, str]] 
         Tuple[bool, str]: (Success status, Message or error)
     '''
     try:
-        response = requests.get(url, headers=headers, stream=True, verify=False)
+        response = requests.get(url, headers=headers, stream=True)
         response.raise_for_status()
         
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -131,12 +131,8 @@ def download_episode(episode_url: str, output_dir: Optional[str] = None) -> Tupl
         Tuple[bool, str, Optional[str]]: (Success status, Message, Downloaded file path if successful)
     '''
     try:
-        # Extract series name from URL safely
-        try:
-            path_parts = urlparse(episode_url).path.split("/")
-            series_name = path_parts[1] if len(path_parts) > 1 else "unknown"
-        except (IndexError, AttributeError):
-            series_name = "unknown"
+        # Extract series name from URL
+        series_name = urlparse(episode_url).path.split("/")[1]
         
         # Set output directory
         if output_dir:
@@ -144,7 +140,6 @@ def download_episode(episode_url: str, output_dir: Optional[str] = None) -> Tupl
         else:
             download_dir = f"./{series_name}"
         
-        # Ensure directory exists
         os.makedirs(download_dir, exist_ok=True)
         
         if "downloadwella" in episode_url:
@@ -155,7 +150,7 @@ def download_episode(episode_url: str, output_dir: Optional[str] = None) -> Tupl
                 }
                 request_data = {}
                 
-                episode_res = requests.get(episode_url, verify=False)
+                episode_res = requests.get(episode_url)
                 episode_res.raise_for_status()
                 
                 episode_soup = BeautifulSoup(episode_res.text, "html.parser")
@@ -173,21 +168,11 @@ def download_episode(episode_url: str, output_dir: Optional[str] = None) -> Tupl
                 if not action_url:
                     return False, "Form action URL not found", None
                 
-                response = requests.post(action_url, headers=request_headers, data=request_data, stream=True, verify=False)
+                response = requests.post(action_url, headers=request_headers, data=request_data, stream=True)
                 response.raise_for_status()
                 
-                # Safely extract filename
-                try:
-                    file_name = extract_filename(response, os.path.basename(unquote(urlparse(episode_url).path)))
-                    if not file_name or file_name == "":
-                        file_name = f"download_{int(time.time())}"
-                except Exception:
-                    file_name = f"download_{int(time.time())}"
-                
+                file_name = extract_filename(response, os.path.basename(unquote(urlparse(episode_url).path)))
                 file_path = os.path.join(download_dir, file_name)
-                
-                # Create parent directory if needed
-                os.makedirs(os.path.dirname(file_path), exist_ok=True)
                 
                 with open(file_path, "wb") as f:
                     for chunk in response.iter_content(chunk_size=8192):
@@ -205,21 +190,11 @@ def download_episode(episode_url: str, output_dir: Optional[str] = None) -> Tupl
         else:
             # Direct download URL
             try:
-                file_response = requests.get(episode_url, stream=True, verify=False)
+                file_response = requests.get(episode_url, stream=True)
                 file_response.raise_for_status()
                 
-                # Safely extract filename
-                try:
-                    file_name = extract_filename(file_response, os.path.basename(unquote(urlparse(episode_url).path)))
-                    if not file_name or file_name == "":
-                        file_name = f"download_{int(time.time())}"
-                except Exception:
-                    file_name = f"download_{int(time.time())}"
-                
+                file_name = extract_filename(file_response, os.path.basename(unquote(urlparse(episode_url).path)))
                 file_path = os.path.join(download_dir, file_name)
-                
-                # Create parent directory if needed
-                os.makedirs(os.path.dirname(file_path), exist_ok=True)
                 
                 with open(file_path, "wb") as f:
                     for chunk in file_response.iter_content(chunk_size=8192):
@@ -405,7 +380,7 @@ def extract_episodes(url: str) -> Tuple[bool, List[str], str]:
         Tuple[bool, List[str], str]: (Success status, List of episode URLs, Error message if any)
     '''
     try:
-        res = requests.get(url, verify=False)
+        res = requests.get(url)
         res.raise_for_status()
         
         soup = BeautifulSoup(res.text, "html.parser")
