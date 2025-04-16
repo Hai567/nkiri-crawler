@@ -56,6 +56,15 @@ while failures < max_failures:
             if page_urls:
                 new_urls.update(page_urls)
                 print(f"Found {len(page_urls)} new links on page {page_num}")
+                
+                # Write new URLs to file immediately
+                with open("completed_series_links.txt", "a+") as file:
+                    for url in page_urls:
+                        file.write(url + "\n")
+                print(f"Added {len(page_urls)} new URLs to the file")
+                
+                # Update existing_urls to prevent duplications in subsequent pages
+                existing_urls.update(page_urls)
             else:
                 print(f"No new links on page {page_num}")
                 
@@ -69,11 +78,8 @@ while failures < max_failures:
         failures += 1
         time.sleep(5)  # Wait longer on error
 
-# Write new URLs to file
+# Remove the write logic at the end since we're writing per page now
 if new_urls:
-    with open("completed_series_links.txt", "a+") as file:
-        for url in new_urls:
-            file.write(url + "\n")
-    print(f"Added {len(new_urls)} new URLs to the file")
+    print(f"Total new URLs found: {len(new_urls)}")
 else:
     print("No new URLs found")
