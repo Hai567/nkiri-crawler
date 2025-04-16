@@ -122,7 +122,9 @@ for url in urls:
         soup = BeautifulSoup(res.text, "html.parser")
         episode_elements = soup.select("div > div.elementor > section.elementor-section.elementor-top-section.elementor-element.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-33.elementor-top-column.elementor-element > div > div > div > div > a")
         episode_urls = [element.get('href') for element in episode_elements if element.get('href')]
-        
+        number_of_episodes = len(episode_urls)
+        number_of_episodes_downloaded = 0
+                
         all_episodes_downloaded = True
         
         for i, episode_url in enumerate(episode_urls):
@@ -174,7 +176,8 @@ for url in urls:
                             isDownloaded = True
                             # Track this episode as downloaded
                             add_to_downloaded_urls(DOWNLOADED_EPISODES_FILE, episode_url)
-                        
+                            number_of_episodes_downloaded += 1
+
                     else:
                         # Direct download URL
                         file_response = requests.get(episode_url, headers=headers, stream=True, verify=False)
@@ -192,7 +195,8 @@ for url in urls:
                             isDownloaded = True
                             # Track this episode as downloaded
                             add_to_downloaded_urls(DOWNLOADED_EPISODES_FILE, episode_url)
-                
+                            number_of_episodes_downloaded += 1
+
                 except requests.exceptions.RequestException as e:
                     logger.error(f"Network error downloading {episode_url}: {str(e)}")
                     retry_count += 1
@@ -202,9 +206,10 @@ for url in urls:
         
         logger.info(f"Downloaded all episodes for {series_name}")
         
-        # Only mark the series as complete if all episodes were already downloaded or newly downloaded
+        # Only mark the series as complete if all episodes were already downloaded
         if all_episodes_downloaded:
-            logger.info(f"All episodes for {series_name} were already downloaded")
+            logger.info(f"All episodes for {series_name} were already downloaded before")
+            
         
         # Clean up directory after processing all episodes
         try:
@@ -214,7 +219,8 @@ for url in urls:
             logger.error(f"Failed to remove directory {download_dir}: {str(e)}")
         
         # Track this series as processed
-        add_to_downloaded_urls(DOWNLOADED_SERIES_FILE, url)
+        if number_of_episodes_downloaded == number_of_episodes:
+            add_to_downloaded_urls(DOWNLOADED_SERIES_FILE, url)
     
     except Exception as e:
         logger.error(f"Failed to process series {url}: {str(e)}")
