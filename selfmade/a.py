@@ -26,7 +26,7 @@ DOWNLOADED_EPISODES_FILE = "./downloaded_episodes.txt"
 def rclone_upload_file(file_path, target_dir):
     output = subprocess.run(["rclone", "move", file_path, target_dir, 
                             "--progress", "--stats-one-line", "--stats=15s", "--retries", "3", 
-                            "--low-level-retries", "10", "--checksum", "--log-file=rclone-log.txt"
+                            "--low-level-retries", "10", "--checksum", "--log-file", "rclone-log.txt"
                             ], shell=True, capture_output=True, text=True)
     if output.stdout.strip() == "" and output.stderr.strip() == "":
         logger.info(f'Uploaded {file_path} to {target_dir}')
