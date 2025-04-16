@@ -8,7 +8,6 @@ import warnings
 import logging
 
 warnings.filterwarnings("ignore")
-
 # Set up logging
 logging.basicConfig(
     level=logging.INFO,
@@ -19,6 +18,22 @@ logging.basicConfig(
     ]
 )
 logger = logging.getLogger(__name__)
+
+
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+    'Accept-Language': 'en-US,en;q=0.9',
+    'Referer': 'https://nkiri.com/',
+    'DNT': '1',
+    'Connection': 'keep-alive',
+    'Upgrade-Insecure-Requests': '1',
+    'Sec-Fetch-Dest': 'document',
+    'Sec-Fetch-Mode': 'navigate',
+    'Sec-Fetch-Site': 'same-origin',
+    'Sec-Fetch-User': '?1',
+    'Cache-Control': 'max-age=0',
+}
 
 # Tracking files
 DOWNLOADED_SERIES_FILE = "./downloaded_series.txt"
@@ -97,7 +112,7 @@ for url in urls:
     
     try:
         ''' Extracts all episode links from the main page URL '''
-        res = requests.get(url, verify=False)
+        res = requests.get(url, headers=headers, verify=False)
         res.raise_for_status()  # Raise exception for bad status codes
         
         series_name = urlparse(url).path.split("/")[1]
@@ -130,7 +145,7 @@ for url in urls:
                         }
                         request_body = {}
                         
-                        episode_res = requests.get(episode_url, verify=False)
+                        episode_res = requests.get(episode_url, headers=headers, verify=False)
                         episode_res.raise_for_status()
                         
                         episode_soup = BeautifulSoup(episode_res.text, "html.parser")
@@ -162,7 +177,7 @@ for url in urls:
                         
                     else:
                         # Direct download URL
-                        file_response = requests.get(episode_url, stream=True, verify=False)
+                        file_response = requests.get(episode_url, headers=headers, stream=True, verify=False)
                         file_response.raise_for_status()
                         # Safely extract filename
                         file_name = extract_filename(file_response, f"{series_name} E{0 if i < 9 else ''}{i+1}.mkv")
