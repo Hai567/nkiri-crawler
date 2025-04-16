@@ -169,5 +169,7 @@ for url in urls:
     if all_episodes_downloaded:
         logger.info(f"All episodes for {series_name} were already downloaded")
     
+    os.remove(f"./{series_name}")
+    
     # Track this series as processed
     add_to_downloaded_urls(DOWNLOADED_SERIES_FILE, url)
