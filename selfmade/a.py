@@ -1,5 +1,6 @@
 import requests
 import os
+import shutil
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 import subprocess
@@ -24,20 +25,23 @@ DOWNLOADED_SERIES_FILE = "./downloaded_series.txt"
 DOWNLOADED_EPISODES_FILE = "./downloaded_episodes.txt"
 
 def rclone_upload_file(file_path, target_dir):
-    output = subprocess.run(["rclone", "move", file_path, target_dir, 
-                            "--progress", "--stats-one-line", "--stats=15s", "--retries", "3", 
-                            "--low-level-retries", "10", "--checksum", "--log-file", "rclone-log.txt"
-                            ], shell=True, capture_output=True, text=True)
-    if output.stdout.strip() == "" and output.stderr.strip() == "":
-        logger.info(f'Uploaded {file_path} to {target_dir}')
-        return True
-    else:
-        if output.stdout.strip():
-            logger.info(f'Output: {output.stdout.strip()}')
+    try:
+        output = subprocess.run(["rclone", "move", file_path, target_dir, 
+                                "--progress", "--stats-one-line", "--stats=15s", "--retries", "3", 
+                                "--low-level-retries", "10", "--checksum", "--log-file", "rclone-log.txt"
+                                ], shell=False, capture_output=True, text=True)
+        if output.returncode == 0:
+            logger.info(f'Uploaded {file_path} to {target_dir}')
+            return True
+        else:
+            if output.stdout.strip():
+                logger.info(f'Output: {output.stdout.strip()}')
+            if output.stderr.strip():
+                logger.error(f'Error: {output.stderr.strip()}')
             return False
-        if output.stderr.strip():
-            logger.error(f'Error: {output.stderr.strip()}')
-            return False
+    except Exception as e:
+        logger.error(f"Upload failed: {str(e)}")
+        return False
 
 def extract_filename(response, fallback_filename) -> str:
     '''
@@ -91,85 +95,111 @@ for url in urls:
         logger.info(f"Skipping already downloaded series: {url}")
         continue
     
-    ''' Extracts all episode links from the main page URL '''
-    res = requests.get(url, verify=False)
-    series_name = urlparse(url).path.split("/")[1]
-    download_dir = f"./{series_name}"
-    os.makedirs(download_dir, exist_ok=True)
-    
-    soup = BeautifulSoup(res.text, "html.parser")
-    episode_elements = soup.select("div > div.elementor > section.elementor-section.elementor-top-section.elementor-element.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-33.elementor-top-column.elementor-element > div > div > div > div > a")
-    episode_urls = [element.get('href') for element in episode_elements if element.get('href')]
-    
-    all_episodes_downloaded = True
-    
-    for i, episode_url in enumerate(episode_urls):
-        isDownloaded = False
-        while not isDownloaded:
+    try:
+        ''' Extracts all episode links from the main page URL '''
+        res = requests.get(url, verify=False)
+        res.raise_for_status()  # Raise exception for bad status codes
+        
+        series_name = urlparse(url).path.split("/")[1]
+        download_dir = f"./{series_name}"
+        os.makedirs(download_dir, exist_ok=True)
+        
+        soup = BeautifulSoup(res.text, "html.parser")
+        episode_elements = soup.select("div > div.elementor > section.elementor-section.elementor-top-section.elementor-element.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div.elementor-column.elementor-col-33.elementor-top-column.elementor-element > div > div > div > div > a")
+        episode_urls = [element.get('href') for element in episode_elements if element.get('href')]
+        
+        all_episodes_downloaded = True
+        
+        for i, episode_url in enumerate(episode_urls):
             # Skip if this episode has already been downloaded
             if episode_url in downloaded_episodes:
                 logger.info(f"Skipping already downloaded episode: {episode_url}")
                 continue
                 
             all_episodes_downloaded = False
+            isDownloaded = False
+            retry_count = 0
             
-            ''' Downloads an episode from Nkiri episode url '''
-            if "downloadwella" in episode_url:
-                # Handle downloadwella URLs
-                request_headers = {
-                    "Content-Type": "application/x-www-form-urlencoded",
-                }
-                request_body = {}
+            while not isDownloaded and retry_count < 3:
+                try:
+                    ''' Downloads an episode from Nkiri episode url '''
+                    if "downloadwella" in episode_url:
+                        # Handle downloadwella URLs
+                        request_headers = {
+                            "Content-Type": "application/x-www-form-urlencoded",
+                        }
+                        request_body = {}
+                        
+                        episode_res = requests.get(episode_url, verify=False)
+                        episode_res.raise_for_status()
+                        
+                        episode_soup = BeautifulSoup(episode_res.text, "html.parser")
+                        episode_form = episode_soup.select_one("form")
+                        
+                        if not episode_form:
+                            logger.error(f"No form found on page: {episode_url}")
+                            break
+                            
+                        inputs = episode_form.select("input")
+                        for input_tag in inputs:
+                            if input_tag.get("name") and input_tag.get("value"):
+                                request_body[input_tag.get("name")] = input_tag.get("value")
+                        
+                        response = requests.post(episode_url, headers=request_headers, data=request_body, stream=True, verify=False)
+                        response.raise_for_status()
+                        file_name = extract_filename(response, f"{series_name} E{0 if i < 9 else ''}{i+1}.mkv")
+                        file_path = os.path.join(download_dir, file_name)
+                        
+                        with open(file_path, "wb") as f:
+                            for chunk in response.iter_content(chunk_size=8192):
+                                f.write(chunk)
+                        logger.info(f"Downloaded: {file_name} to {file_path}")
+                        is_uploaded = rclone_upload_file(file_path, f"onedrive:nkiri/{series_name}")
+                        if is_uploaded:
+                            isDownloaded = True
+                            # Track this episode as downloaded
+                            add_to_downloaded_urls(DOWNLOADED_EPISODES_FILE, episode_url)
+                        
+                    else:
+                        # Direct download URL
+                        file_response = requests.get(episode_url, stream=True, verify=False)
+                        file_response.raise_for_status()
+                        # Safely extract filename
+                        file_name = extract_filename(file_response, f"{series_name} E{0 if i < 9 else ''}{i+1}.mkv")
+                        file_path = os.path.join(download_dir, file_name)
+                        
+                        with open(file_path, "wb") as f:
+                            for chunk in file_response.iter_content(chunk_size=8192):
+                                f.write(chunk)
+                        logger.info(f"Downloaded: {file_name} to {file_path}")
+                        is_uploaded = rclone_upload_file(file_path, f"onedrive:nkiri/{series_name}")
+                        if is_uploaded:
+                            isDownloaded = True
+                            # Track this episode as downloaded
+                            add_to_downloaded_urls(DOWNLOADED_EPISODES_FILE, episode_url)
                 
-                episode_res = requests.get(episode_url, verify=False)
-                
-                episode_soup = BeautifulSoup(episode_res.text, "html.parser")
-                episode_form = episode_soup.select_one("form")
-                
-                inputs = episode_form.select("input")
-                for input_tag in inputs:
-                    if input_tag.get("name") and input_tag.get("value"):
-                        request_body[input_tag.get("name")] = input_tag.get("value")
-                
-                response = requests.post(episode_url, headers=request_headers, data=request_body, stream=True, verify=False)
-                file_name = extract_filename(response, f"{series_name} E{0 if i < 9 else ''}{i+1}.mkv")
-                file_path = os.path.join(download_dir, file_name)
-                
-                with open(file_path, "wb") as f:
-                    for chunk in response.iter_content(chunk_size=8192):
-                        f.write(chunk)
-                logger.info(f"Downloaded: {file_name} to {file_path}")
-                is_uploaded = rclone_upload_file(file_path, f"onedrive:nkiri/{series_name}")
-                if is_uploaded:
-                    isDownloaded = True
-                
-                # Track this episode as downloaded
-                add_to_downloaded_urls(DOWNLOADED_EPISODES_FILE, episode_url)
-                
-            else:
-                # Direct download URL
-                file_response = requests.get(episode_url, stream=True, verify=False)
-                # Safely extract filename
-                file_name = extract_filename(file_response, f"{series_name} E{0 if i < 9 else ''}{i+1}.mkv")
-                file_path = os.path.join(download_dir, file_name)
-                
-                with open(file_path, "wb") as f:
-                    for chunk in file_response.iter_content(chunk_size=8192):
-                        f.write(chunk)
-                logger.info(f"Downloaded: {file_name} to {file_path}")
-                is_uploaded = rclone_upload_file(file_path, f"onedrive:nkiri/{series_name}")
-                if is_uploaded:
-                    isDownloaded = True
-                # Track this episode as downloaded
-                add_to_downloaded_urls(DOWNLOADED_EPISODES_FILE, episode_url)
+                except requests.exceptions.RequestException as e:
+                    logger.error(f"Network error downloading {episode_url}: {str(e)}")
+                    retry_count += 1
+                except Exception as e:
+                    logger.error(f"Error downloading {episode_url}: {str(e)}")
+                    retry_count += 1
+        
+        logger.info(f"Downloaded all episodes for {series_name}")
+        
+        # Only mark the series as complete if all episodes were already downloaded or newly downloaded
+        if all_episodes_downloaded:
+            logger.info(f"All episodes for {series_name} were already downloaded")
+        
+        # Clean up directory after processing all episodes
+        try:
+            shutil.rmtree(download_dir)
+            logger.info(f"Removed directory: {download_dir}")
+        except Exception as e:
+            logger.error(f"Failed to remove directory {download_dir}: {str(e)}")
+        
+        # Track this series as processed
+        add_to_downloaded_urls(DOWNLOADED_SERIES_FILE, url)
     
-    logger.info(f"Downloaded all episodes for {series_name}")
-    
-    # Only mark the series as complete if all episodes were already downloaded or newly downloaded
-    if all_episodes_downloaded:
-        logger.info(f"All episodes for {series_name} were already downloaded")
-    
-    os.remove(f"./{series_name}")
-    
-    # Track this series as processed
-    add_to_downloaded_urls(DOWNLOADED_SERIES_FILE, url)
+    except Exception as e:
+        logger.error(f"Failed to process series {url}: {str(e)}")
