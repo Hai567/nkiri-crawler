@@ -207,3 +207,26 @@
 2025/04/18 16:57:24 CRITICAL: Failed to create file system for "onedrive:nkiri/sunny-s01-complete-tv-series": is a directory not a file
 2025/04/18 16:58:36 CRITICAL: Failed to create file system for "onedrive:nkiri/tell-me-lies-s01-complete-tv-series": is a directory not a file
 2025/04/18 16:59:08 CRITICAL: Failed to create file system for "onedrive:nkiri/shadow-beauty-episode-1-2-added-korean-drama": is a directory not a file
+2025/04/18 16:59:36 ERROR : malpractice-s01-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:59:36 ERROR : malpractice-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:59:36 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 17:00:04 ERROR : Attempt 2/3 succeeded
+2025/04/18 17:00:13 ERROR : my-secret-romance-complete-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 17:00:13 ERROR : my-secret-romance-complete-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 17:00:13 ERROR : my-secret-romance-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 17:00:13 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 17:00:13 ERROR : my-secret-romance-complete-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 17:00:13 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 17:00:16 ERROR : Attempt 2/3 succeeded
+2025/04/18 17:00:16 ERROR : Attempt 2/3 succeeded
+2025/04/18 17:00:48 ERROR : dragon-age-absolution-s01-complete-anime-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 17:00:48 ERROR : dragon-age-absolution-s01-complete-anime-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 17:00:48 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 17:00:49 CRITICAL: Failed to create file system for "onedrive:nkiri/dragon-age-absolution-s01-complete-anime-tv-series": is a directory not a file
+2025/04/18 17:01:24 ERROR : Attempt 2/3 succeeded
+2025/04/18 17:01:41 CRITICAL: Failed to create file system for "onedrive:nkiri/the-last-thing-he-told-me-complete-tv-series": is a directory not a file
+2025/04/18 17:01:51 ERROR : hanna-s03-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 17:01:51 ERROR : hanna-s03-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 17:01:51 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 17:03:04 ERROR : Attempt 2/3 succeeded
+2025/04/18 17:03:25 CRITICAL: Failed to create file system for "onedrive:nkiri/resident-alien-complete-tv-series": is a directory not a file
