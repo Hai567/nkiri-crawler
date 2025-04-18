@@ -99,3 +99,26 @@
 2025/04/18 16:33:34 ERROR : citadel-s01-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/18 16:33:34 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/18 16:33:49 ERROR : Attempt 2/3 succeeded
+2025/04/18 16:36:00 ERROR : pretty-little-liars-original-sin-s01-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:36:00 ERROR : pretty-little-liars-original-sin-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:36:00 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:36:01 CRITICAL: Failed to create file system for "onedrive:nkiri/santo-s01-complete-spanish-tv-series": is a directory not a file
+2025/04/18 16:36:02 ERROR : Attempt 2/3 succeeded
+2025/04/18 16:36:05 CRITICAL: Failed to create file system for "onedrive:nkiri/dead-boy-detective-s01-complete-tv-series": is a directory not a file
+2025/04/18 16:36:06 ERROR : monthly-magazine-home-episode-1-korean-drama-172 E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:36:06 ERROR : monthly-magazine-home-episode-1-korean-drama-172 E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:36:06 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:36:06 ERROR : monthly-magazine-home-episode-1-korean-drama-172 E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:36:06 ERROR : monthly-magazine-home-episode-1-korean-drama-172 E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:36:06 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:36:08 ERROR : Attempt 2/3 succeeded
+2025/04/18 16:36:08 ERROR : Attempt 2/3 succeeded
+2025/04/18 16:36:42 ERROR : trese-s01-complete-animated-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:36:42 ERROR : trese-s01-complete-animated-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:36:42 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:36:55 CRITICAL: Failed to create file system for "onedrive:nkiri/pale-moon-complete-korean-drama": is a directory not a file
+2025/04/18 16:37:53 ERROR : Attempt 2/3 succeeded
+2025/04/18 16:38:17 ERROR : grid-episode-1-added-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:38:17 ERROR : grid-episode-1-added-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:38:17 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:39:13 ERROR : Attempt 2/3 succeeded
