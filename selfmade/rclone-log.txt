@@ -1,1 +1,23 @@
 2025/04/18 15:57:00 CRITICAL: Failed to create file system for "onedrive:nkiri/mythic-quest-raven-banquet-s01-and-s02-complete-tv-series": is a directory not a file
+2025/04/18 16:00:08 ERROR : romance-in-the-house-complete-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:00:08 ERROR : romance-in-the-house-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:00:08 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:00:14 ERROR : i-can-hear-your-voice-s01-complete-korean-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:00:14 ERROR : i-can-hear-your-voice-s01-complete-korean-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:00:14 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:00:14 ERROR : i-can-hear-your-voice-s01-complete-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:00:14 ERROR : i-can-hear-your-voice-s01-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:00:14 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:00:15 ERROR : tomorrow-episode-1-added-korean-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:00:15 ERROR : tomorrow-episode-1-added-korean-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:00:15 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:00:48 ERROR : Attempt 2/3 succeeded
+2025/04/18 16:00:49 ERROR : Attempt 2/3 succeeded
+2025/04/18 16:00:49 ERROR : Attempt 2/3 succeeded
+2025/04/18 16:00:54 ERROR : Attempt 2/3 succeeded
+2025/04/18 16:02:25 CRITICAL: Failed to create file system for "onedrive:nkiri/too-hot-to-handle-s03-complete-tv-series": is a directory not a file
+2025/04/18 16:02:36 CRITICAL: Failed to create file system for "onedrive:nkiri/golden-mask-s01-episodes-added-korean-drama": is a directory not a file
+2025/04/18 16:02:57 ERROR : night-has-come-s01-complete-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:02:57 ERROR : night-has-come-s01-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:02:57 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:02:59 ERROR : Attempt 2/3 succeeded
