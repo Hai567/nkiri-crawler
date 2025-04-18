@@ -54,3 +54,15 @@
 2025/04/18 16:17:13 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/18 16:18:34 CRITICAL: Failed to create file system for "onedrive:nkiri/invasion-s02-complete-tv-series": is a directory not a file
 2025/04/18 16:19:01 ERROR : Attempt 2/3 succeeded
+2025/04/18 16:19:26 ERROR : my-friends-graduation-s01-complete-korean-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:19:26 ERROR : my-friends-graduation-s01-complete-korean-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:19:26 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:20:20 ERROR : Attempt 2/3 succeeded
+2025/04/18 16:21:20 CRITICAL: Failed to create file system for "onedrive:nkiri/the-chi-s01-s02-s03-complete-tv-series": is a directory not a file
+2025/04/18 16:22:18 ERROR : primal-s01-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:22:18 ERROR : primal-s01-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:22:18 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:22:21 ERROR : Attempt 2/3 succeeded
+2025/04/18 16:22:41 ERROR : rookie-cops-s01-complete-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:22:41 ERROR : rookie-cops-s01-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/18 16:22:41 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
