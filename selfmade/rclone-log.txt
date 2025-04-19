@@ -1000,3 +1000,24 @@
 2025/04/19 03:27:40 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 03:28:14 ERROR : Attempt 2/3 succeeded
 2025/04/19 03:28:30 CRITICAL: Failed to create file system for "onedrive:nkiri/clean-slate-s01-complete-tv-series": is a directory not a file
+2025/04/19 03:29:44 ERROR : yumis-cells-s02-episode-1-2-added-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:29:44 ERROR : yumis-cells-s02-episode-1-2-added-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:29:44 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:29:45 ERROR : yumis-cells-s02-episode-1-2-added-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:29:45 ERROR : yumis-cells-s02-episode-1-2-added-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:29:45 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:29:47 ERROR : Attempt 2/3 succeeded
+2025/04/19 03:29:47 ERROR : Attempt 2/3 succeeded
+2025/04/19 03:30:12 CRITICAL: Failed to create file system for "onedrive:nkiri/love-between-fairy-and-devil-s01-complete-chinese-drama": is a directory not a file
+2025/04/19 03:30:17 ERROR : the-trauma-code-heroes-on-call-s01-complete-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:30:17 ERROR : the-trauma-code-heroes-on-call-s01-complete-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:30:17 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:30:20 CRITICAL: Failed to create file system for "onedrive:nkiri/family-the-unbreakable-bond-episode-1-added-korean-drama": is a directory not a file
+2025/04/19 03:30:22 CRITICAL: Failed to create file system for "onedrive:nkiri/elsbeth-s01-complete-tv-series": is a directory not a file
+2025/04/19 03:30:23 ERROR : the-legend-of-vox-machina-s02-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:30:23 ERROR : the-legend-of-vox-machina-s02-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:30:23 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:30:47 ERROR : Attempt 2/3 succeeded
+2025/04/19 03:30:55 ERROR : Attempt 2/3 succeeded
+2025/04/19 03:33:10 CRITICAL: Failed to create file system for "onedrive:nkiri/haha-bus-s01-complete-korean-variety-show": is a directory not a file
+2025/04/19 03:33:11 CRITICAL: Failed to create file system for "onedrive:nkiri/haha-bus-s01-complete-korean-variety-show": is a directory not a file
