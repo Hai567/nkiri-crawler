@@ -1197,3 +1197,13 @@
 2025/04/19 04:27:24 ERROR : hometown-cha-cha-cha-s01-episode-1-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 04:27:24 ERROR : hometown-cha-cha-cha-s01-episode-1-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 04:27:24 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:29:09 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:30:23 ERROR : waco-the-aftermath-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:30:23 ERROR : waco-the-aftermath-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:30:23 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:31:23 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:31:52 ERROR : captain-laserhawk-a-blood-dragon-remix-s01-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:31:52 ERROR : captain-laserhawk-a-blood-dragon-remix-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:31:52 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:31:52 CRITICAL: Failed to create file system for "onedrive:nkiri/captain-laserhawk-a-blood-dragon-remix-s01-complete-tv-series": is a directory not a file
+2025/04/19 04:32:22 ERROR : Attempt 2/3 succeeded
