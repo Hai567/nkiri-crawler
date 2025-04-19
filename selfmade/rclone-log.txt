@@ -1925,3 +1925,22 @@
 2025/04/19 07:30:50 ERROR : Attempt 2/3 succeeded
 2025/04/19 07:30:50 ERROR : Attempt 2/3 succeeded
 2025/04/19 07:32:50 ERROR : Attempt 2/3 succeeded
+2025/04/19 07:35:33 ERROR : bad-prosecutor-s01-korean-drama-complete E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:35:33 ERROR : bad-prosecutor-s01-korean-drama-complete E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:35:33 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:36:18 ERROR : Attempt 2/3 succeeded
+2025/04/19 07:36:41 ERROR : baymax-s01-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:36:41 ERROR : baymax-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:36:41 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:36:43 ERROR : Attempt 2/3 succeeded
+2025/04/19 07:36:45 ERROR : godfather-of-harlem-s02-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:36:45 ERROR : godfather-of-harlem-s02-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:36:45 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:36:54 ERROR : Attempt 2/3 succeeded
+2025/04/19 07:37:04 CRITICAL: Failed to create file system for "onedrive:nkiri/manifest-s04-part-1-complete-tv-series": is a directory not a file
+2025/04/19 07:37:13 CRITICAL: Failed to create file system for "onedrive:nkiri/the-madness-s01-complete-tv-series": is a directory not a file
+2025/04/19 07:37:39 CRITICAL: Failed to create file system for "onedrive:nkiri/dating-agency-cyrano-s01-complete-korean-drama": is a directory not a file
+2025/04/19 07:37:49 CRITICAL: Failed to create file system for "onedrive:nkiri/love-with-flaws-s01-complete-korean-drama": is a directory not a file
+2025/04/19 07:37:49 ERROR : love-with-flaws-s01-complete-korean-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:37:49 ERROR : love-with-flaws-s01-complete-korean-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:37:49 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
