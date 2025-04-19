@@ -1799,3 +1799,28 @@
 2025/04/19 07:04:21 ERROR : her-bucket-list-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 07:04:21 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 07:04:43 ERROR : Attempt 2/3 succeeded
+2025/04/19 07:05:55 ERROR : house-of-the-dragon-s01-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:05:55 ERROR : house-of-the-dragon-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:05:55 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:06:27 CRITICAL: Failed to create file system for "onedrive:nkiri/blood-sisters-s01-complete-tv-series-2": is a directory not a file
+2025/04/19 07:06:27 CRITICAL: Failed to create file system for "onedrive:nkiri/blood-sisters-s01-complete-tv-series-2": is a directory not a file
+2025/04/19 07:06:33 ERROR : dota-dragons-blood-complete-tv-series-2 E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:06:33 ERROR : dota-dragons-blood-complete-tv-series-2 E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:06:33 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:06:35 ERROR : Attempt 2/3 succeeded
+2025/04/19 07:06:47 CRITICAL: Failed to create file system for "onedrive:nkiri/eve-s01-episode-1-added-korean-drama": is a directory not a file
+2025/04/19 07:06:49 CRITICAL: Failed to create file system for "onedrive:nkiri/monthly-magazine-home-episode-1-korean-drama-53": is a directory not a file
+2025/04/19 07:06:49 CRITICAL: Failed to create file system for "onedrive:nkiri/monthly-magazine-home-episode-1-korean-drama-53": is a directory not a file
+2025/04/19 07:07:17 ERROR : Attempt 2/3 succeeded
+2025/04/19 07:07:20 ERROR : fakes-s01-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:07:20 ERROR : fakes-s01-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:07:20 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:07:20 ERROR : fakes-s01-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:07:20 ERROR : fakes-s01-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:07:20 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:07:38 ERROR : Attempt 2/3 succeeded
+2025/04/19 07:07:54 CRITICAL: Failed to create file system for "onedrive:nkiri/sausage-party-foodtopia-s01-complete-tv-series": is a directory not a file
+2025/04/19 07:07:54 CRITICAL: Failed to create file system for "onedrive:nkiri/sausage-party-foodtopia-s01-complete-tv-series": is a directory not a file
+2025/04/19 07:08:12 ERROR : Attempt 2/3 succeeded
+2025/04/19 07:09:35 CRITICAL: Failed to create file system for "onedrive:nkiri/our-blooming-youth-complete-korean-drama": is a directory not a file
+2025/04/19 07:09:42 CRITICAL: Failed to create file system for "onedrive:nkiri/the-english-s01-complete-tv-series": is a directory not a file
