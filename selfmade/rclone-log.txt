@@ -1698,3 +1698,18 @@
 2025/04/19 06:40:42 ERROR : sonic-prime-s02-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 06:40:42 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 06:41:39 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:42:17 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:42:17 ERROR : cheese-in-the-trap-s01-complete-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:42:17 ERROR : cheese-in-the-trap-s01-complete-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:42:17 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:43:04 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:43:29 ERROR : sight-unseen-s02-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:43:29 ERROR : sight-unseen-s02-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:43:29 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:43:33 ERROR : player-s01-complete-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:43:33 ERROR : player-s01-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:43:33 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:44:17 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:44:29 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:45:05 CRITICAL: Failed to create file system for "onedrive:nkiri/at-a-distance-spring-is-green-episode-1-korean-drama__trashed": is a directory not a file
+2025/04/19 06:45:17 CRITICAL: Failed to create file system for "onedrive:nkiri/that-90s-show-s03-complete-tv-series": is a directory not a file
