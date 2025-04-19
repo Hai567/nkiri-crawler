@@ -460,3 +460,20 @@
 2025/04/19 00:57:50 CRITICAL: Failed to create file system for "onedrive:nkiri/https-nkiri-com-uncle-samsik-s01-complete-korean-drama": is a directory not a file
 2025/04/19 00:58:06 CRITICAL: Failed to create file system for "onedrive:nkiri/https-nkiri-com-uncle-samsik-s01-complete-korean-drama": is a directory not a file
 2025/04/19 00:59:22 CRITICAL: Failed to create file system for "onedrive:nkiri/splash-splash-love-complete-korean-drama": is a directory not a file
+2025/04/19 01:00:59 CRITICAL: Failed to create file system for "onedrive:nkiri/divorce-attorney-shin-episode-1-added-korean-drama": is a directory not a file
+2025/04/19 01:01:54 CRITICAL: Failed to create file system for "onedrive:nkiri/vikings-s01-and-s02-complete-tv-series": is a directory not a file
+2025/04/19 01:02:16 CRITICAL: Failed to create file system for "onedrive:nkiri/summer-guys-s01-complete-korean-drama": is a directory not a file
+2025/04/19 01:02:57 ERROR : bloody-heart-s01-episode-1-added-korean-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:02:57 ERROR : bloody-heart-s01-episode-1-added-korean-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:02:57 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:02:57 ERROR : bloody-heart-s01-episode-1-added-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:02:57 ERROR : bloody-heart-s01-episode-1-added-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:02:57 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:03:00 ERROR : Attempt 2/3 succeeded
+2025/04/19 01:03:00 ERROR : Attempt 2/3 succeeded
+2025/04/19 01:03:44 ERROR : because-its-the-first-time-korean-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:03:44 ERROR : because-its-the-first-time-korean-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:03:44 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:03:47 ERROR : Attempt 2/3 succeeded
+2025/04/19 01:03:58 CRITICAL: Failed to create file system for "onedrive:nkiri/bodies-s01-complete-tv-series": is a directory not a file
+2025/04/19 01:04:16 CRITICAL: Failed to create file system for "onedrive:nkiri/marvels-moon-girl-and-devil-dinosaur-complete-tv-series": is a directory not a file
