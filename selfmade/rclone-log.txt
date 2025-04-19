@@ -1615,3 +1615,10 @@
 2025/04/19 06:09:24 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 06:09:29 CRITICAL: Failed to create file system for "onedrive:nkiri/the-player-2-master-of-swindlers-complete-korean-drama": is a directory not a file
 2025/04/19 06:10:52 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:13:56 ERROR : ultimate-weapon-alice-s01-complete-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:13:56 ERROR : ultimate-weapon-alice-s01-complete-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:13:56 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:14:07 CRITICAL: Failed to create file system for "onedrive:nkiri/surface-s02-complete-tv-series": is a directory not a file
+2025/04/19 06:14:56 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:15:38 CRITICAL: Failed to create file system for "onedrive:nkiri/shadow-and-bone-s02-complete-tv-series": is a directory not a file
+2025/04/19 06:16:48 CRITICAL: Failed to create file system for "onedrive:nkiri/raven-of-the-inner-palace-s01-complete-anime-tv-series": is a directory not a file
