@@ -390,3 +390,4 @@
 2025/04/19 00:40:01 CRITICAL: Failed to create file system for "onedrive:nkiri/daniel-spellbound-s01-s02-complete-tv-series": is a directory not a file
 2025/04/19 00:40:03 CRITICAL: Failed to create file system for "onedrive:nkiri/the-legend-of-vox-machina-s03-complete-tv-series": is a directory not a file
 2025/04/19 00:40:06 CRITICAL: Failed to create file system for "onedrive:nkiri/faraway-downs-s01-complete-tv-series": is a directory not a file
+2025/04/19 00:43:19 CRITICAL: Failed to create file system for "onedrive:nkiri/fools-love-s01-complete-korean-drama": is a directory not a file
