@@ -1230,3 +1230,33 @@
 2025/04/19 04:36:33 ERROR : discovery-of-love-complete-korean-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 04:36:33 ERROR : discovery-of-love-complete-korean-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 04:36:33 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:36:53 ERROR : the-cleaning-lady-s01-episode-1-added-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:36:53 ERROR : the-cleaning-lady-s01-episode-1-added-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:36:53 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:36:54 ERROR : blood-sisters-s01-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:36:54 ERROR : blood-sisters-s01-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:36:54 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:36:54 ERROR : blood-sisters-s01-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:36:54 ERROR : blood-sisters-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:36:54 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:36:55 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:36:57 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:36:57 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:37:08 ERROR : temperature-of-love-s01-complete-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:37:08 ERROR : temperature-of-love-s01-complete-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:37:08 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:37:08 ERROR : temperature-of-love-s01-complete-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:37:08 ERROR : temperature-of-love-s01-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:37:08 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:37:10 ERROR : peaky-blinders-s05-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:37:10 ERROR : peaky-blinders-s05-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:37:10 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:37:10 ERROR : peaky-blinders-s05-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:37:10 ERROR : peaky-blinders-s05-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:37:10 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:37:11 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:37:11 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:37:12 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:37:12 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:37:28 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:37:32 CRITICAL: Failed to create file system for "onedrive:nkiri/elite-s08-complete-tv-series": is a directory not a file
