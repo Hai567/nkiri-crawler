@@ -359,3 +359,34 @@
 2025/04/19 00:32:53 ERROR : pyramid-game-s01-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 00:32:53 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 00:33:02 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:36:51 CRITICAL: Failed to create file system for "onedrive:nkiri/reacher-s02-complete-tv-series": is a directory not a file
+2025/04/19 00:36:51 ERROR : undercover-s01-complete-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:36:51 ERROR : undercover-s01-complete-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:36:51 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:36:52 ERROR : undercover-s01-complete-korean-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:36:52 ERROR : undercover-s01-complete-korean-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:36:52 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:36:54 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:36:55 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:37:13 CRITICAL: Failed to create file system for "onedrive:nkiri/in-the-soop-friendcation-s01-complete-variety-show": is a directory not a file
+2025/04/19 00:37:34 ERROR : like-flowers-in-sand-complete-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:37:34 ERROR : like-flowers-in-sand-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:37:34 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:37:46 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:38:44 ERROR : everybody-still-hates-chris-s01-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:38:44 ERROR : everybody-still-hates-chris-s01-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:38:44 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:38:44 CRITICAL: Failed to create file system for "onedrive:nkiri/everybody-still-hates-chris-s01-complete-tv-series": is a directory not a file
+2025/04/19 00:38:48 CRITICAL: Failed to create file system for "onedrive:nkiri/surrealestate-s01-complete-tv-series": is a directory not a file
+2025/04/19 00:38:53 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:39:06 ERROR : doctors-complete-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:39:06 ERROR : doctors-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:39:06 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:39:06 ERROR : doctors-complete-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:39:06 ERROR : doctors-complete-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:39:06 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:39:08 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:39:08 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:40:01 CRITICAL: Failed to create file system for "onedrive:nkiri/daniel-spellbound-s01-s02-complete-tv-series": is a directory not a file
+2025/04/19 00:40:03 CRITICAL: Failed to create file system for "onedrive:nkiri/the-legend-of-vox-machina-s03-complete-tv-series": is a directory not a file
+2025/04/19 00:40:06 CRITICAL: Failed to create file system for "onedrive:nkiri/faraway-downs-s01-complete-tv-series": is a directory not a file
