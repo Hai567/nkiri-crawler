@@ -488,3 +488,14 @@
 2025/04/19 01:05:25 ERROR : voice-s01-complete-korean-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 01:05:25 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 01:05:27 ERROR : Attempt 2/3 succeeded
+2025/04/19 01:09:26 CRITICAL: Failed to create file system for "onedrive:nkiri/last-king-of-the-cross-s01-complete-tv-series": is a directory not a file
+2025/04/19 01:09:46 CRITICAL: Failed to create file system for "onedrive:nkiri/queen-woo-s01-complete-korean-drama": is a directory not a file
+2025/04/19 01:11:41 ERROR : law-school-korean-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:11:41 ERROR : law-school-korean-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:11:41 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:11:50 CRITICAL: Failed to create file system for "onedrive:nkiri/genesis-s01-complete-korean-drama": is a directory not a file
+2025/04/19 01:11:57 ERROR : Attempt 2/3 succeeded
+2025/04/19 01:12:10 ERROR : the-end-of-the-fucking-world-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:12:10 ERROR : the-end-of-the-fucking-world-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:12:10 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:12:18 ERROR : Attempt 2/3 succeeded
