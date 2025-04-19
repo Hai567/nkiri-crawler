@@ -1678,3 +1678,14 @@
 2025/04/19 06:32:09 ERROR : celebrity-prank-wars-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 06:32:09 ERROR : celebrity-prank-wars-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 06:32:09 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:33:54 ERROR : star-trek-prodigy-s01-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:33:54 ERROR : star-trek-prodigy-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:33:54 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:34:34 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:34:36 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:34:40 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:37:24 CRITICAL: Failed to create file system for "onedrive:nkiri/sakamoto-days-s01-complete-anime-tv-series": is a directory not a file
+2025/04/19 06:37:34 CRITICAL: Failed to create file system for "onedrive:nkiri/the-wheel-of-time-s03-complete-tv-series": is a directory not a file
+2025/04/19 06:37:37 ERROR : radio-romance-complete-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:37:37 ERROR : radio-romance-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:37:37 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
