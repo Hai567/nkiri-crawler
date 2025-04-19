@@ -1556,3 +1556,22 @@
 2025/04/19 05:55:58 ERROR : Attempt 2/3 succeeded
 2025/04/19 05:56:26 CRITICAL: Failed to create file system for "onedrive:nkiri/locke-and-key-s02-complete-tv-series": is a directory not a file
 2025/04/19 05:57:03 CRITICAL: Failed to create file system for "onedrive:nkiri/bob-hearts-abishola-s04-complete-tv-series": is a directory not a file
+2025/04/19 05:58:01 ERROR : dr-death-s01-complete-tv-series-2 E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:58:01 ERROR : dr-death-s01-complete-tv-series-2 E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:58:01 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:58:39 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:58:41 ERROR : blood-and-water-s04-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:58:41 ERROR : blood-and-water-s04-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:58:41 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:58:43 CRITICAL: Failed to create file system for "onedrive:nkiri/nesting-s01-complete-tv-series": is a directory not a file
+2025/04/19 05:58:50 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:59:01 ERROR : unstable-s01-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:59:01 ERROR : unstable-s01-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:59:01 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:59:44 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:59:54 ERROR : priest-complete-korean-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:59:54 ERROR : priest-complete-korean-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:59:54 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:00:15 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:00:16 CRITICAL: Failed to create file system for "onedrive:nkiri/ginny-and-georgia-s01-s02-complete-tv-series": is a directory not a file
+2025/04/19 06:00:20 CRITICAL: Failed to create file system for "onedrive:nkiri/panhandle-s01-complete-tv-series": is a directory not a file
