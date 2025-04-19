@@ -1373,3 +1373,4 @@
 2025/04/19 05:11:47 ERROR : the-vampire-diaries-s02-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 05:11:47 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 05:12:00 CRITICAL: Failed to create file system for "onedrive:nkiri/top-boy-s05-complete-tv-series": is a directory not a file
+2025/04/19 05:16:43 ERROR : Attempt 2/3 succeeded
