@@ -1503,3 +1503,36 @@
 2025/04/19 05:48:49 ERROR : ragdoll-s01-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 05:48:49 ERROR : ragdoll-s01-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 05:48:49 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:49:53 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:50:31 ERROR : ltns-s01-complete-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:50:31 ERROR : ltns-s01-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:50:31 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:51:17 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:51:39 ERROR : rick-and-morty-s01-s02-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:51:39 ERROR : rick-and-morty-s01-s02-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:51:39 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:51:39 ERROR : rick-and-morty-s01-s02-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:51:39 ERROR : rick-and-morty-s01-s02-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:51:39 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:51:47 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:51:47 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:51:56 ERROR : voice-4-episode-1-added-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:51:56 ERROR : voice-4-episode-1-added-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:51:56 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:51:56 ERROR : voice-4-episode-1-added-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:51:56 ERROR : voice-4-episode-1-added-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:51:56 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:51:58 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:51:58 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:52:02 ERROR : alchemist-s01-complete-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:52:02 ERROR : alchemist-s01-complete-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:52:02 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:52:02 ERROR : alchemist-s01-complete-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:52:02 ERROR : alchemist-s01-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:52:02 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:52:04 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:52:04 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:52:12 CRITICAL: Failed to create file system for "onedrive:nkiri/the-sex-lives-of-college-girls-s02-complete-tv-series": is a directory not a file
+2025/04/19 05:52:44 ERROR : red-eye-s01-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:52:44 ERROR : red-eye-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:52:44 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
