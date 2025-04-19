@@ -1422,3 +1422,44 @@
 2025/04/19 05:32:23 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 05:32:26 ERROR : Attempt 2/3 succeeded
 2025/04/19 05:32:46 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:34:05 ERROR : asura-s01-complete-japanese-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:34:05 ERROR : asura-s01-complete-japanese-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:34:05 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:34:06 ERROR : barry-s03-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:34:06 ERROR : barry-s03-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:34:06 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:34:06 ERROR : barry-s03-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:34:06 ERROR : barry-s03-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:34:06 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:34:08 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:34:08 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:34:17 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:34:21 ERROR : welcome-s01-complete-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:34:21 ERROR : welcome-s01-complete-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:34:21 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:34:21 ERROR : welcome-s01-complete-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:34:21 ERROR : welcome-s01-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:34:21 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:34:21 ERROR : peng-korean-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:34:21 ERROR : peng-korean-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:34:21 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:34:23 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:34:24 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:34:39 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:34:58 CRITICAL: Failed to create file system for "onedrive:nkiri/those-about-to-die-s01-complete-tv-series": is a directory not a file
+2025/04/19 05:36:05 ERROR : 7-first-kisses-complete-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:36:05 ERROR : 7-first-kisses-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:36:05 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:36:05 ERROR : 7-first-kisses-complete-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:36:05 ERROR : 7-first-kisses-complete-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:36:05 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:36:08 CRITICAL: Failed to create file system for "onedrive:nkiri/castlevania-nocturne-s02-complete-tv-series": is a directory not a file
+2025/04/19 05:36:11 ERROR : mother-s01-complete-korean-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:36:11 ERROR : mother-s01-complete-korean-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:36:11 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:36:11 CRITICAL: Failed to create file system for "onedrive:nkiri/mother-s01-complete-korean-drama": is a directory not a file
+2025/04/19 05:36:13 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:36:15 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:36:15 ERROR : teen-wolf-s05-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:36:15 ERROR : teen-wolf-s05-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:36:15 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
