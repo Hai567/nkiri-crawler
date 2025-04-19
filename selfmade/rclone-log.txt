@@ -1021,3 +1021,16 @@
 2025/04/19 03:30:55 ERROR : Attempt 2/3 succeeded
 2025/04/19 03:33:10 CRITICAL: Failed to create file system for "onedrive:nkiri/haha-bus-s01-complete-korean-variety-show": is a directory not a file
 2025/04/19 03:33:11 CRITICAL: Failed to create file system for "onedrive:nkiri/haha-bus-s01-complete-korean-variety-show": is a directory not a file
+2025/04/19 03:34:14 ERROR : the-horror-of-dolores-roach-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:34:14 ERROR : the-horror-of-dolores-roach-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:34:14 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:34:14 ERROR : the-horror-of-dolores-roach-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:34:14 ERROR : the-horror-of-dolores-roach-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:34:14 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:34:54 ERROR : Attempt 2/3 succeeded
+2025/04/19 03:34:57 ERROR : Attempt 2/3 succeeded
+2025/04/19 03:35:37 CRITICAL: Failed to create file system for "onedrive:nkiri/life-after-life-s01-complete-tv-series": is a directory not a file
+2025/04/19 03:35:50 ERROR : love-me-s01-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:35:50 ERROR : love-me-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:35:50 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:35:52 ERROR : Attempt 2/3 succeeded
