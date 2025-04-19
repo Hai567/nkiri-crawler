@@ -1260,3 +1260,45 @@
 2025/04/19 04:37:12 ERROR : Attempt 2/3 succeeded
 2025/04/19 04:37:28 ERROR : Attempt 2/3 succeeded
 2025/04/19 04:37:32 CRITICAL: Failed to create file system for "onedrive:nkiri/elite-s08-complete-tv-series": is a directory not a file
+2025/04/19 04:41:45 ERROR : deaths-game-complete-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:41:45 ERROR : deaths-game-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:41:45 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:41:55 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:41:59 CRITICAL: Failed to create file system for "onedrive:nkiri/the-recruit-s02-complete-tv-series": is a directory not a file
+2025/04/19 04:41:59 ERROR : the-recruit-s02-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:41:59 ERROR : the-recruit-s02-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:41:59 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:42:03 ERROR : the-studio-s01-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:42:03 ERROR : the-studio-s01-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:42:03 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:42:12 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:42:13 CRITICAL: Failed to create file system for "onedrive:nkiri/in-cold-blood-s01-complete-korean-drama": is a directory not a file
+2025/04/19 04:42:15 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:42:37 ERROR : are-you-human-too-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:42:37 ERROR : are-you-human-too-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:42:37 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:42:37 ERROR : are-you-human-too-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:42:37 ERROR : are-you-human-too-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:42:37 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:42:39 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:42:39 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:42:44 CRITICAL: Failed to create file system for "onedrive:nkiri/sweet-home-s03-complete-korean-drama": is a directory not a file
+2025/04/19 04:43:01 ERROR : sweet-tooth-s01-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:43:01 ERROR : sweet-tooth-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:43:01 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:43:03 ERROR : based-on-a-true-story-s02-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:43:03 ERROR : based-on-a-true-story-s02-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:43:03 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:43:03 CRITICAL: Failed to create file system for "onedrive:nkiri/based-on-a-true-story-s02-complete-tv-series": is a directory not a file
+2025/04/19 04:43:06 ERROR : sassy-go-go-cheer-up-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:43:06 ERROR : sassy-go-go-cheer-up-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:43:06 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:43:06 ERROR : sassy-go-go-cheer-up-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:43:06 ERROR : sassy-go-go-cheer-up-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:43:06 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:43:08 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:43:08 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:43:16 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:43:16 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:43:35 CRITICAL: Failed to create file system for "onedrive:nkiri/sky-rojo-s03-complete-tv-series": is a directory not a file
+2025/04/19 04:43:56 CRITICAL: Failed to create file system for "onedrive:nkiri/silo-s02-complete-tv-series": is a directory not a file
