@@ -918,3 +918,6 @@
 2025/04/19 02:53:41 ERROR : Attempt 2/3 succeeded
 2025/04/19 02:53:53 CRITICAL: Failed to create file system for "onedrive:nkiri/shine-or-go-crazy-korean-drama": is a directory not a file
 2025/04/19 02:54:04 ERROR : Attempt 2/3 succeeded
+2025/04/19 02:57:35 CRITICAL: Failed to create file system for "onedrive:nkiri/call-it-love-complete-korean-drama": is a directory not a file
+2025/04/19 02:59:18 CRITICAL: Failed to create file system for "onedrive:nkiri/diary-of-a-prosecutor-complete-korean-drama": is a directory not a file
+2025/04/19 03:00:27 CRITICAL: Failed to create file system for "onedrive:nkiri/pennyworth-s01-and-s02-complete-tv-series": is a directory not a file
