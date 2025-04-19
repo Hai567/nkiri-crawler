@@ -711,3 +711,21 @@
 2025/04/19 02:13:22 CRITICAL: Failed to create file system for "onedrive:nkiri/the-morning-show-s01-s02-complete-tv-series": is a directory not a file
 2025/04/19 02:13:22 CRITICAL: Failed to create file system for "onedrive:nkiri/the-morning-show-s01-s02-complete-tv-series": is a directory not a file
 2025/04/19 02:13:26 ERROR : Attempt 2/3 succeeded
+2025/04/19 02:18:59 CRITICAL: Failed to create file system for "onedrive:nkiri/the-sex-lives-of-college-girls-s01-complete-tv-series": is a directory not a file
+2025/04/19 02:19:01 ERROR : tell-me-lies-s02-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 02:19:01 ERROR : tell-me-lies-s02-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 02:19:01 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 02:19:55 ERROR : Attempt 2/3 succeeded
+2025/04/19 02:20:02 ERROR : sungkyunkwan-scandal-s01-complete-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 02:20:02 ERROR : sungkyunkwan-scandal-s01-complete-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 02:20:02 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 02:20:02 ERROR : sungkyunkwan-scandal-s01-complete-korean-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 02:20:02 ERROR : sungkyunkwan-scandal-s01-complete-korean-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 02:20:02 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 02:20:04 ERROR : Attempt 2/3 succeeded
+2025/04/19 02:20:05 ERROR : Attempt 2/3 succeeded
+2025/04/19 02:20:34 ERROR : bridgerton-s02-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 02:20:34 ERROR : bridgerton-s02-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 02:20:34 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 02:20:39 CRITICAL: Failed to create file system for "onedrive:nkiri/the-couple-next-door-s01-complete-tv-series": is a directory not a file
+2025/04/19 02:20:42 CRITICAL: Failed to create file system for "onedrive:nkiri/black-snow-s01-complete-tv-series": is a directory not a file
