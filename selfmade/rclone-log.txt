@@ -1629,3 +1629,16 @@
 2025/04/19 06:18:01 CRITICAL: Failed to create file system for "onedrive:nkiri/crash-course-in-romance-s01-complete-korean-drama": is a directory not a file
 2025/04/19 06:19:09 CRITICAL: Failed to create file system for "onedrive:nkiri/my-adventures-with-superman-s02-complete-tv-series": is a directory not a file
 2025/04/19 06:19:09 CRITICAL: Failed to create file system for "onedrive:nkiri/my-adventures-with-superman-s02-complete-tv-series": is a directory not a file
+2025/04/19 06:23:37 CRITICAL: Failed to create file system for "onedrive:nkiri/decoy-aka-the-bait-complete-korean-drama": is a directory not a file
+2025/04/19 06:25:14 ERROR : bad-girlfriend-complete-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:25:14 ERROR : bad-girlfriend-complete-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:25:14 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:25:17 ERROR : the-endgame-s01-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:25:17 ERROR : the-endgame-s01-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:25:17 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:25:17 ERROR : the-endgame-s01-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:25:17 ERROR : the-endgame-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:25:17 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:25:19 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:25:19 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:25:21 ERROR : Attempt 2/3 succeeded
