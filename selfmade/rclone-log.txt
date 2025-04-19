@@ -1748,3 +1748,34 @@
 2025/04/19 06:52:15 ERROR : Attempt 2/3 succeeded
 2025/04/19 06:52:19 ERROR : Attempt 2/3 succeeded
 2025/04/19 06:52:44 CRITICAL: Failed to create file system for "onedrive:nkiri/the-curse-s01-complete-tv-series": is a directory not a file
+2025/04/19 06:54:23 ERROR : the-way-home-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:54:23 ERROR : the-way-home-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:54:23 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:54:25 ERROR : tokyo-swindlers-s01-complete-japanese-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:54:25 ERROR : tokyo-swindlers-s01-complete-japanese-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:54:25 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:54:32 CRITICAL: Failed to create file system for "onedrive:nkiri/the-winter-king-s01-complete-tv-series": is a directory not a file
+2025/04/19 06:54:35 ERROR : miracle-s01-episode-1-added-korean-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:54:35 ERROR : miracle-s01-episode-1-added-korean-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:54:35 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:54:35 ERROR : miracle-s01-episode-1-added-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:54:35 ERROR : miracle-s01-episode-1-added-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:54:35 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:54:37 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:54:38 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:54:50 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:54:53 ERROR : police-university-s01-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:54:53 ERROR : police-university-s01-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:54:53 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:55:03 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:55:33 ERROR : bmf-s02-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:55:33 ERROR : bmf-s02-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:55:33 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:55:35 CRITICAL: Failed to create file system for "onedrive:nkiri/my-shy-boss-aka-introverted-boss-s01-complete-korean-drama": is a directory not a file
+2025/04/19 06:56:32 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:56:43 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:57:19 CRITICAL: Failed to create file system for "onedrive:nkiri/the-watcher-complete-tv-series__trashed": is a directory not a file
+2025/04/19 06:57:24 ERROR : 61st-street-s02-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:57:24 ERROR : 61st-street-s02-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:57:24 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:57:37 CRITICAL: Failed to create file system for "onedrive:nkiri/high-school-king-of-savvy-download-korean-drama": is a directory not a file
