@@ -1062,3 +1062,16 @@
 2025/04/19 03:40:16 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 03:40:19 ERROR : Attempt 2/3 succeeded
 2025/04/19 03:41:17 ERROR : Attempt 2/3 succeeded
+2025/04/19 03:42:32 CRITICAL: Failed to create file system for "onedrive:nkiri/longing-for-you-s01-complete-korean-drama": is a directory not a file
+2025/04/19 03:42:41 CRITICAL: Failed to create file system for "onedrive:nkiri/the-vampire-diaries-s04-complete-tv-series": is a directory not a file
+2025/04/19 03:44:07 ERROR : Attempt 2/3 succeeded
+2025/04/19 03:44:08 ERROR : hacks-s01-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:44:08 ERROR : hacks-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:44:08 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:44:08 ERROR : hacks-s01-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:44:08 ERROR : hacks-s01-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:44:08 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:44:11 ERROR : Attempt 2/3 succeeded
+2025/04/19 03:44:11 ERROR : Attempt 2/3 succeeded
+2025/04/19 03:44:30 CRITICAL: Failed to create file system for "onedrive:nkiri/resident-alien-s02-complete-tv-series": is a directory not a file
+2025/04/19 03:44:43 CRITICAL: Failed to create file system for "onedrive:nkiri/bodkin-s01-complete-tv-series": is a directory not a file
