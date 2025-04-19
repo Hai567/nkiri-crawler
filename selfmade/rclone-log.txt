@@ -420,3 +420,37 @@
 2025/04/19 00:50:07 CRITICAL: Failed to create file system for "onedrive:nkiri/the-vampire-diaries-s03-complete-tv-series": is a directory not a file
 2025/04/19 00:51:58 CRITICAL: Failed to create file system for "onedrive:nkiri/kite-man-hell-yeah-s01-complete-tv-series": is a directory not a file
 2025/04/19 00:52:20 CRITICAL: Failed to create file system for "onedrive:nkiri/kite-man-hell-yeah-s01-complete-tv-series": is a directory not a file
+2025/04/19 00:52:43 CRITICAL: Failed to create file system for "onedrive:nkiri/zombieverse-s01-complete-korean-variety-show": is a directory not a file
+2025/04/19 00:54:27 CRITICAL: Failed to create file system for "onedrive:nkiri/superman-and-lois-s03-complete-tv-series": is a directory not a file
+2025/04/19 00:54:30 ERROR : moonhaven-s01-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:54:30 ERROR : moonhaven-s01-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:54:30 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:54:32 ERROR : the-completely-made-up-adventures-of-dick-turpin-s01-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:54:32 ERROR : the-completely-made-up-adventures-of-dick-turpin-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:54:32 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:54:32 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:54:34 ERROR : young-rock-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:54:34 ERROR : young-rock-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:54:34 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:54:39 CRITICAL: Failed to create file system for "onedrive:nkiri/and-just-like-that-s01-complete-tv-series": is a directory not a file
+2025/04/19 00:54:41 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:54:41 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:55:03 ERROR : fatal-seduction-s01-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:55:03 ERROR : fatal-seduction-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:55:03 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:55:05 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:55:19 ERROR : little-bird-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:55:19 ERROR : little-bird-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:55:19 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:55:29 CRITICAL: Failed to create file system for "onedrive:nkiri/sing-my-crush-s01-complete-korean-drama": is a directory not a file
+2025/04/19 00:55:30 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:55:30 CRITICAL: Failed to create file system for "onedrive:nkiri/sing-my-crush-s01-complete-korean-drama": is a directory not a file
+2025/04/19 00:56:24 ERROR : loot-s01-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:56:24 ERROR : loot-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:56:24 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:56:24 ERROR : loot-s01-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:56:24 ERROR : loot-s01-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:56:24 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:56:25 ERROR : abominable-and-the-invisible-city-s02-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:56:25 ERROR : abominable-and-the-invisible-city-s02-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:56:25 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
