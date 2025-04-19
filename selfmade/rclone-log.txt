@@ -953,3 +953,24 @@
 2025/04/19 03:06:35 CRITICAL: Failed to create file system for "onedrive:nkiri/the-walking-dead-s07-complete-tv-series": is a directory not a file
 2025/04/19 03:06:35 CRITICAL: Failed to create file system for "onedrive:nkiri/the-walking-dead-s07-complete-tv-series": is a directory not a file
 2025/04/19 03:09:16 CRITICAL: Failed to create file system for "onedrive:nkiri/bad-guys-s01-complete-korean-drama": is a directory not a file
+2025/04/19 03:09:21 CRITICAL: Failed to create file system for "onedrive:nkiri/mouse-episode-1-2-added-korean-drama": is a directory not a file
+2025/04/19 03:09:23 ERROR : mouse-episode-1-2-added-korean-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:09:23 ERROR : mouse-episode-1-2-added-korean-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:09:23 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:09:43 ERROR : Attempt 2/3 succeeded
+2025/04/19 03:10:08 ERROR : cruel-intentions-s01-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:10:08 ERROR : cruel-intentions-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:10:08 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:10:09 ERROR : cruel-intentions-s01-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:10:09 ERROR : cruel-intentions-s01-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:10:09 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:10:17 CRITICAL: Failed to create file system for "onedrive:nkiri/the-umbrella-academy-s04-complete-tv-series": is a directory not a file
+2025/04/19 03:10:18 ERROR : Attempt 2/3 succeeded
+2025/04/19 03:10:23 ERROR : Attempt 2/3 succeeded
+2025/04/19 03:10:26 CRITICAL: Failed to create file system for "onedrive:nkiri/icarly-s02-complete-tv-series": is a directory not a file
+2025/04/19 03:11:38 CRITICAL: Failed to create file system for "onedrive:nkiri/twenty-five-twenty-one-complete-korean-drama": is a directory not a file
+2025/04/19 03:12:17 CRITICAL: Failed to create file system for "onedrive:nkiri/the-good-doctor-s04-complete-tv-series": is a directory not a file
+2025/04/19 03:12:39 ERROR : 1899-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:12:39 ERROR : 1899-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:12:39 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:12:48 ERROR : Attempt 2/3 succeeded
