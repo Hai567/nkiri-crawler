@@ -594,3 +594,12 @@
 2025/04/19 01:41:34 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 01:41:35 CRITICAL: Failed to create file system for "onedrive:nkiri/bad-sisters-s01-complete-tv-series": is a directory not a file
 2025/04/19 01:41:37 ERROR : Attempt 2/3 succeeded
+2025/04/19 01:44:55 CRITICAL: Failed to create file system for "onedrive:nkiri/tunnel-s01-complete-korean-drama": is a directory not a file
+2025/04/19 01:44:55 CRITICAL: Failed to create file system for "onedrive:nkiri/tunnel-s01-complete-korean-drama": is a directory not a file
+2025/04/19 01:45:03 CRITICAL: Failed to create file system for "onedrive:nkiri/extraordinary-attorney-woo-episode-1-6-added-korean-drama": is a directory not a file
+2025/04/19 01:47:20 ERROR : suspicion-s01-episode-1-and-2-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:47:20 ERROR : suspicion-s01-episode-1-and-2-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:47:20 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:48:00 ERROR : Attempt 2/3 succeeded
+2025/04/19 01:48:11 CRITICAL: Failed to create file system for "onedrive:nkiri/monarch-legacy-of-monsters-s01-complete-tv-series": is a directory not a file
+2025/04/19 01:48:26 CRITICAL: Failed to create file system for "onedrive:nkiri/titans-s04-episode-1-3-added-tv-series": is a directory not a file
