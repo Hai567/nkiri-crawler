@@ -1034,3 +1034,31 @@
 2025/04/19 03:35:50 ERROR : love-me-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 03:35:50 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 03:35:52 ERROR : Attempt 2/3 succeeded
+2025/04/19 03:39:01 ERROR : warrior-s01-and-s02-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:39:01 ERROR : warrior-s01-and-s02-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:39:01 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:39:01 ERROR : warrior-s01-and-s02-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:39:01 ERROR : warrior-s01-and-s02-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:39:01 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:39:03 ERROR : Attempt 2/3 succeeded
+2025/04/19 03:39:04 ERROR : Attempt 2/3 succeeded
+2025/04/19 03:40:00 ERROR : the-boys-s01-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:40:00 ERROR : the-boys-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:40:00 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:40:00 ERROR : the-boys-s01-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:40:00 ERROR : the-boys-s01-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:40:00 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:40:02 ERROR : Attempt 2/3 succeeded
+2025/04/19 03:40:02 ERROR : Attempt 2/3 succeeded
+2025/04/19 03:40:05 ERROR : marry-you-s01-complete-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:40:05 ERROR : marry-you-s01-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:40:05 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:40:13 CRITICAL: Failed to create file system for "onedrive:nkiri/orphan-black-echoes-s01-complete-tv-series": is a directory not a file
+2025/04/19 03:40:16 ERROR : spy-x-family-s01-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:40:16 ERROR : spy-x-family-s01-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:40:16 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:40:16 ERROR : spy-x-family-s01-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:40:16 ERROR : spy-x-family-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:40:16 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:40:19 ERROR : Attempt 2/3 succeeded
+2025/04/19 03:41:17 ERROR : Attempt 2/3 succeeded
