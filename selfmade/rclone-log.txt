@@ -1128,3 +1128,16 @@
 2025/04/19 04:05:54 ERROR : Attempt 2/3 succeeded
 2025/04/19 04:05:56 ERROR : Attempt 2/3 succeeded
 2025/04/19 04:05:56 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:10:25 ERROR : new-love-playlist-complete-korean-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:10:25 ERROR : new-love-playlist-complete-korean-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:10:25 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:10:35 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:11:40 ERROR : the-killing-kind-s01-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:11:40 ERROR : the-killing-kind-s01-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:11:40 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:11:41 ERROR : the-killing-kind-s01-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:11:41 ERROR : the-killing-kind-s01-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:11:41 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:11:52 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:11:54 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:12:27 CRITICAL: Failed to create file system for "onedrive:nkiri/fired-on-mars-s01-complete-tv-series": is a directory not a file
