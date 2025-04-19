@@ -990,3 +990,6 @@
 2025/04/19 03:19:07 CRITICAL: Failed to create file system for "onedrive:nkiri/star-trek-picard-s01-s02-complete-tv-series": is a directory not a file
 2025/04/19 03:19:07 CRITICAL: Failed to create file system for "onedrive:nkiri/the-suspicious-housekeeper-s01-complete-korean-drama": is a directory not a file
 2025/04/19 03:19:42 ERROR : Attempt 2/3 succeeded
+2025/04/19 03:21:54 CRITICAL: Failed to create file system for "onedrive:nkiri/the-originals-s03-complete-tv-series": is a directory not a file
+2025/04/19 03:23:51 CRITICAL: Failed to create file system for "onedrive:nkiri/better-call-saul-s04-and-s05-complete-tv-series": is a directory not a file
+2025/04/19 03:24:08 CRITICAL: Failed to create file system for "onedrive:nkiri/better-call-saul-s04-and-s05-complete-tv-series": is a directory not a file
