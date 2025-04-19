@@ -267,3 +267,41 @@
 2025/04/19 00:06:52 ERROR : Attempt 2/3 succeeded
 2025/04/19 00:07:30 CRITICAL: Failed to create file system for "onedrive:nkiri/love-to-hate-you-complete-korean-drama": is a directory not a file
 2025/04/19 00:09:54 CRITICAL: Failed to create file system for "onedrive:nkiri/boyhood-s01-complete-korean-drama": is a directory not a file
+2025/04/19 00:13:07 ERROR : kiss-sixth-sense-s01-episode-2-added-korean-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:13:07 ERROR : kiss-sixth-sense-s01-episode-2-added-korean-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:13:07 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:13:08 ERROR : kiss-sixth-sense-s01-episode-2-added-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:13:08 ERROR : kiss-sixth-sense-s01-episode-2-added-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:13:08 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:13:10 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:13:10 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:13:14 ERROR : roommates-of-poongduck-304-complete-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:13:14 ERROR : roommates-of-poongduck-304-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:13:14 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:13:35 ERROR : the-umbrella-academy-s03-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:13:35 ERROR : the-umbrella-academy-s03-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:13:35 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:13:35 ERROR : the-umbrella-academy-s03-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:13:35 ERROR : the-umbrella-academy-s03-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:13:35 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:13:37 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:13:37 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:13:41 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:14:05 ERROR : one-of-us-is-lying-s02-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:14:05 ERROR : one-of-us-is-lying-s02-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:14:05 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:14:16 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:14:36 CRITICAL: Failed to create file system for "onedrive:nkiri/midnight-mass-complete-tv-series": is a directory not a file
+2025/04/19 00:14:36 CRITICAL: Failed to create file system for "onedrive:nkiri/midnight-mass-complete-tv-series": is a directory not a file
+2025/04/19 00:16:03 ERROR : 4044-s01-episode-1-2-and-3-added-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:16:03 ERROR : 4044-s01-episode-1-2-and-3-added-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:16:03 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:16:03 ERROR : 4044-s01-episode-1-2-and-3-added-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:16:03 ERROR : 4044-s01-episode-1-2-and-3-added-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:16:03 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:16:05 CRITICAL: Failed to create file system for "onedrive:nkiri/the-walking-dead-s01-s02-complete-tv-series": is a directory not a file
+2025/04/19 00:16:05 ERROR : the-walking-dead-s01-s02-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:16:05 ERROR : the-walking-dead-s01-s02-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:16:05 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:16:05 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:16:06 ERROR : Attempt 2/3 succeeded
