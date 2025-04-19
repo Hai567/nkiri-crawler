@@ -1386,3 +1386,25 @@
 2025/04/19 05:20:59 CRITICAL: Failed to create file system for "onedrive:nkiri/blossom-campus-s01-complete-korean-drama": is a directory not a file
 2025/04/19 05:21:52 ERROR : Attempt 2/3 succeeded
 2025/04/19 05:24:17 CRITICAL: Failed to create file system for "onedrive:nkiri/jinxed-at-first-s01-episode-1-added-korean-drama": is a directory not a file
+2025/04/19 05:25:42 ERROR : reply-1988-complete-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:25:42 ERROR : reply-1988-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:25:42 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:25:42 ERROR : reply-1988-complete-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:25:42 ERROR : reply-1988-complete-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:25:42 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:25:44 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:25:45 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:26:58 CRITICAL: Failed to create file system for "onedrive:nkiri/hes-expecting-s01-complete-japanese-drama": is a directory not a file
+2025/04/19 05:26:58 ERROR : hes-expecting-s01-complete-japanese-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:26:58 ERROR : hes-expecting-s01-complete-japanese-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:26:58 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:27:04 ERROR : love-me-s02-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:27:04 ERROR : love-me-s02-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:27:04 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:27:06 CRITICAL: Failed to create file system for "onedrive:nkiri/teen-wolf-s06-complete-tv-series": is a directory not a file
+2025/04/19 05:27:40 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:28:15 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:28:29 ERROR : physical-s02-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:28:29 ERROR : physical-s02-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:28:29 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:28:32 ERROR : Attempt 2/3 succeeded
