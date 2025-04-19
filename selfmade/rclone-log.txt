@@ -2024,3 +2024,21 @@
 2025/04/19 07:50:04 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 07:50:07 ERROR : Attempt 2/3 succeeded
 2025/04/19 07:50:07 ERROR : Attempt 2/3 succeeded
+2025/04/19 07:50:12 ERROR : a-man-in-full-s01-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:50:12 ERROR : a-man-in-full-s01-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:50:12 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:50:12 CRITICAL: Failed to create file system for "onedrive:nkiri/a-man-in-full-s01-complete-tv-series": is a directory not a file
+2025/04/19 07:50:14 ERROR : candy-s01-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:50:14 ERROR : candy-s01-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:50:14 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:50:19 ERROR : Attempt 2/3 succeeded
+2025/04/19 07:50:37 ERROR : Attempt 2/3 succeeded
+2025/04/19 07:50:53 ERROR : mayor-of-kingstown-episode-1-2-added-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:50:53 ERROR : mayor-of-kingstown-episode-1-2-added-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:50:53 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:50:55 ERROR : Attempt 2/3 succeeded
+2025/04/19 07:51:27 CRITICAL: Failed to create file system for "onedrive:nkiri/reflection-of-you-episode-1-2-added-korean-drama": is a directory not a file
+2025/04/19 07:51:30 ERROR : queen-love-and-war-s01-complete-korean-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:51:30 ERROR : queen-love-and-war-s01-complete-korean-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:51:30 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 07:51:54 ERROR : Attempt 2/3 succeeded
