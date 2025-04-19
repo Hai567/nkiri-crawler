@@ -993,3 +993,10 @@
 2025/04/19 03:21:54 CRITICAL: Failed to create file system for "onedrive:nkiri/the-originals-s03-complete-tv-series": is a directory not a file
 2025/04/19 03:23:51 CRITICAL: Failed to create file system for "onedrive:nkiri/better-call-saul-s04-and-s05-complete-tv-series": is a directory not a file
 2025/04/19 03:24:08 CRITICAL: Failed to create file system for "onedrive:nkiri/better-call-saul-s04-and-s05-complete-tv-series": is a directory not a file
+2025/04/19 03:26:27 CRITICAL: Failed to create file system for "onedrive:nkiri/better-complete-tv-series": is a directory not a file
+2025/04/19 03:27:40 CRITICAL: Failed to create file system for "onedrive:nkiri/single-drunk-female-s02-complete-tv-series": is a directory not a file
+2025/04/19 03:27:40 ERROR : single-drunk-female-s02-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:27:40 ERROR : single-drunk-female-s02-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:27:40 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:28:14 ERROR : Attempt 2/3 succeeded
+2025/04/19 03:28:30 CRITICAL: Failed to create file system for "onedrive:nkiri/clean-slate-s01-complete-tv-series": is a directory not a file
