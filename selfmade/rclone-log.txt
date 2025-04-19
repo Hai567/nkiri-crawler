@@ -1075,3 +1075,15 @@
 2025/04/19 03:44:11 ERROR : Attempt 2/3 succeeded
 2025/04/19 03:44:30 CRITICAL: Failed to create file system for "onedrive:nkiri/resident-alien-s02-complete-tv-series": is a directory not a file
 2025/04/19 03:44:43 CRITICAL: Failed to create file system for "onedrive:nkiri/bodkin-s01-complete-tv-series": is a directory not a file
+2025/04/19 03:57:37 CRITICAL: Failed to create file system for "onedrive:nkiri/earth-abides-s01-complete-tv-series": is a directory not a file
+2025/04/19 03:59:09 CRITICAL: Failed to create file system for "onedrive:nkiri/harley-quinn-s02-complete-tv-series": is a directory not a file
+2025/04/19 03:59:09 CRITICAL: Failed to create file system for "onedrive:nkiri/harley-quinn-s02-complete-tv-series": is a directory not a file
+2025/04/19 03:59:12 CRITICAL: Failed to create file system for "onedrive:nkiri/teen-wolf-s04-complete-tv-series": is a directory not a file
+2025/04/19 03:59:16 CRITICAL: Failed to create file system for "onedrive:nkiri/breaking-bad-s03-and-s04-complete-tv-series": is a directory not a file
+2025/04/19 03:59:24 ERROR : resident-alien-s02-complete-tv-series E07.mkv: Failed to copy: HTTP error 409 (409 Conflict) returned body: "{\"error\":{\"code\":\"resourceModified\",\"message\":\"The resource has changed since the caller last read it; usually an eTag mismatch\"}}"
+2025/04/19 03:59:24 ERROR : resident-alien-s02-complete-tv-series E07.mkv: Not deleting source as copy failed: HTTP error 409 (409 Conflict) returned body: "{\"error\":{\"code\":\"resourceModified\",\"message\":\"The resource has changed since the caller last read it; usually an eTag mismatch\"}}"
+2025/04/19 03:59:24 ERROR : Attempt 1/3 failed with 1 errors and: HTTP error 409 (409 Conflict) returned body: "{\"error\":{\"code\":\"resourceModified\",\"message\":\"The resource has changed since the caller last read it; usually an eTag mismatch\"}}"
+2025/04/19 03:59:54 ERROR : grownish-s06-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:59:54 ERROR : grownish-s06-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 03:59:54 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:00:06 ERROR : Attempt 2/3 succeeded
