@@ -417,3 +417,6 @@
 2025/04/19 00:47:54 CRITICAL: Failed to create file system for "onedrive:nkiri/singles-inferno-s04-complete-variety-show": is a directory not a file
 2025/04/19 00:47:54 CRITICAL: Failed to create file system for "onedrive:nkiri/parole-examiner-lee-s01-complete-korean-drama": is a directory not a file
 2025/04/19 00:48:16 CRITICAL: Failed to create file system for "onedrive:nkiri/connect-s01-complete-korean-drama": is a directory not a file
+2025/04/19 00:50:07 CRITICAL: Failed to create file system for "onedrive:nkiri/the-vampire-diaries-s03-complete-tv-series": is a directory not a file
+2025/04/19 00:51:58 CRITICAL: Failed to create file system for "onedrive:nkiri/kite-man-hell-yeah-s01-complete-tv-series": is a directory not a file
+2025/04/19 00:52:20 CRITICAL: Failed to create file system for "onedrive:nkiri/kite-man-hell-yeah-s01-complete-tv-series": is a directory not a file
