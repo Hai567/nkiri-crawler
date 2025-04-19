@@ -1190,3 +1190,10 @@
 2025/04/19 04:23:38 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 04:23:41 ERROR : Attempt 2/3 succeeded
 2025/04/19 04:24:33 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:24:57 ERROR : shoresy-s03-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:24:57 ERROR : shoresy-s03-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:24:57 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:25:49 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:27:24 ERROR : hometown-cha-cha-cha-s01-episode-1-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:27:24 ERROR : hometown-cha-cha-cha-s01-episode-1-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:27:24 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
