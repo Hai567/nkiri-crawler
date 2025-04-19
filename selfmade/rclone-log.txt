@@ -1355,3 +1355,21 @@
 2025/04/19 05:06:42 CRITICAL: Failed to create file system for "onedrive:nkiri/bandidos-s02-complete-spanish-tv-series": is a directory not a file
 2025/04/19 05:06:53 CRITICAL: Failed to create file system for "onedrive:nkiri/bandidos-s02-complete-spanish-tv-series": is a directory not a file
 2025/04/19 05:07:39 CRITICAL: Failed to create file system for "onedrive:nkiri/fool-me-once-s01-complete-tv-series": is a directory not a file
+2025/04/19 05:09:05 CRITICAL: Failed to create file system for "onedrive:nkiri/fellow-travelers-s01-complete-tv-series": is a directory not a file
+2025/04/19 05:09:44 ERROR : not-yet-thirty-complete-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:09:44 ERROR : not-yet-thirty-complete-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:09:44 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:09:56 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:10:04 CRITICAL: Failed to create file system for "onedrive:nkiri/sweet-tooth-s03-complete-tv-series": is a directory not a file
+2025/04/19 05:10:53 ERROR : peaky-blinders-s01-s04-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:10:53 ERROR : peaky-blinders-s01-s04-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:10:53 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:10:54 CRITICAL: Failed to create file system for "onedrive:nkiri/clickbait-s01-complete-tv-series": is a directory not a file
+2025/04/19 05:10:55 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:11:10 CRITICAL: Failed to create file system for "onedrive:nkiri/the-walking-dead-s03-complete-tv-series": is a directory not a file
+2025/04/19 05:11:11 CRITICAL: Failed to create file system for "onedrive:nkiri/the-walking-dead-s03-complete-tv-series": is a directory not a file
+2025/04/19 05:11:16 CRITICAL: Failed to create file system for "onedrive:nkiri/who-are-you-s01-complete-korean-drama": is a directory not a file
+2025/04/19 05:11:47 ERROR : the-vampire-diaries-s02-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:11:47 ERROR : the-vampire-diaries-s02-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:11:47 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:12:00 CRITICAL: Failed to create file system for "onedrive:nkiri/top-boy-s05-complete-tv-series": is a directory not a file
