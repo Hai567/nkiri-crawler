@@ -509,3 +509,16 @@
 2025/04/19 01:17:37 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 01:17:47 CRITICAL: Failed to create file system for "onedrive:nkiri/sweet-magnolias-s03-complete-tv-series": is a directory not a file
 2025/04/19 01:17:53 ERROR : Attempt 2/3 succeeded
+2025/04/19 01:20:59 CRITICAL: Failed to create file system for "onedrive:nkiri/playful-kiss-complete-korean-drama": is a directory not a file
+2025/04/19 01:21:52 CRITICAL: Failed to create file system for "onedrive:nkiri/glamorous-complete-tv-series": is a directory not a file
+2025/04/19 01:22:06 CRITICAL: Failed to create file system for "onedrive:nkiri/glamorous-complete-tv-series": is a directory not a file
+2025/04/19 01:22:09 CRITICAL: Failed to create file system for "onedrive:nkiri/boar-hunt-s01-complete-korean-drama": is a directory not a file
+2025/04/19 01:22:25 CRITICAL: Failed to create file system for "onedrive:nkiri/go-back-couple-s01-complete-korean-drama": is a directory not a file
+2025/04/19 01:23:09 ERROR : the-equalizer-s02-episode-1-added-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:23:09 ERROR : the-equalizer-s02-episode-1-added-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:23:09 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:23:09 ERROR : the-equalizer-s02-episode-1-added-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:23:09 ERROR : the-equalizer-s02-episode-1-added-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:23:09 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:23:11 ERROR : Attempt 2/3 succeeded
+2025/04/19 01:23:11 ERROR : Attempt 2/3 succeeded
