@@ -1336,3 +1336,17 @@
 2025/04/19 04:59:48 CRITICAL: Failed to create file system for "onedrive:nkiri/hawkeye-episode-2-added-tv-series": is a directory not a file
 2025/04/19 05:00:13 ERROR : Attempt 2/3 succeeded
 2025/04/19 05:00:45 CRITICAL: Failed to create file system for "onedrive:nkiri/lookism-s01-complete-anime-tv-series": is a directory not a file
+2025/04/19 05:00:59 CRITICAL: Failed to create file system for "onedrive:nkiri/only-murders-in-the-building-s02-tv-series": is a directory not a file
+2025/04/19 05:01:00 CRITICAL: Failed to create file system for "onedrive:nkiri/the-bequeathed-s01-complete-korean-drama": is a directory not a file
+2025/04/19 05:01:21 CRITICAL: Failed to create file system for "onedrive:nkiri/behind-every-star-complete-korean-drama": is a directory not a file
+2025/04/19 05:01:46 CRITICAL: Failed to create file system for "onedrive:nkiri/crime-puzzle-complete-korean-drama": is a directory not a file
+2025/04/19 05:01:46 ERROR : crime-puzzle-complete-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:01:46 ERROR : crime-puzzle-complete-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:01:46 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:02:39 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:03:01 CRITICAL: Failed to create file system for "onedrive:nkiri/the-night-agent-s02-complete-tv-series": is a directory not a file
+2025/04/19 05:03:01 CRITICAL: Failed to create file system for "onedrive:nkiri/missing-crown-prince-s01-complete-korean-drama": is a directory not a file
+2025/04/19 05:03:01 CRITICAL: Failed to create file system for "onedrive:nkiri/the-night-agent-s02-complete-tv-series": is a directory not a file
+2025/04/19 05:04:50 ERROR : the-tyrant-s01-complete-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:04:50 ERROR : the-tyrant-s01-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:04:50 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
