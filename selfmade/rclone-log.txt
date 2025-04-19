@@ -1087,3 +1087,15 @@
 2025/04/19 03:59:54 ERROR : grownish-s06-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 03:59:54 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 04:00:06 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:00:36 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:02:11 ERROR : river-when-the-moon-rises-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:02:11 ERROR : river-when-the-moon-rises-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:02:11 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:02:53 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:02:58 CRITICAL: Failed to create file system for "onedrive:nkiri/reborn-rich-s01-complete-korean-drama": is a directory not a file
+2025/04/19 04:03:18 CRITICAL: Failed to create file system for "onedrive:nkiri/on-the-verge-of-insanity-s01-episode-2-added-korean-drama": is a directory not a file
+2025/04/19 04:03:28 CRITICAL: Failed to create file system for "onedrive:nkiri/bling-empire-new-york-s01-complete-tv-series": is a directory not a file
+2025/04/19 04:03:28 ERROR : bling-empire-new-york-s01-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:03:28 ERROR : bling-empire-new-york-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:03:28 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:04:09 ERROR : Attempt 2/3 succeeded
