@@ -1157,3 +1157,20 @@
 2025/04/19 04:16:12 ERROR : kokdu-season-of-deity-episode-1-added-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 04:16:12 ERROR : kokdu-season-of-deity-episode-1-added-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 04:16:12 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:16:41 ERROR : all-american-s01-and-s02-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:16:41 ERROR : all-american-s01-and-s02-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:16:41 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:16:41 CRITICAL: Failed to create file system for "onedrive:nkiri/all-american-s01-and-s02-complete-tv-series": is a directory not a file
+2025/04/19 04:16:44 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:16:52 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:17:12 CRITICAL: Failed to create file system for "onedrive:nkiri/interview-with-the-vampire-s01-episode-1-added-tv-series": is a directory not a file
+2025/04/19 04:18:32 ERROR : doctor-slump-s01-complete-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:18:32 ERROR : doctor-slump-s01-complete-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:18:32 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:19:03 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:19:38 ERROR : shadow-and-bone-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:19:38 ERROR : shadow-and-bone-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:19:38 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:19:38 ERROR : shadow-and-bone-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:19:38 ERROR : shadow-and-bone-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:19:38 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
