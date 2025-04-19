@@ -391,3 +391,29 @@
 2025/04/19 00:40:03 CRITICAL: Failed to create file system for "onedrive:nkiri/the-legend-of-vox-machina-s03-complete-tv-series": is a directory not a file
 2025/04/19 00:40:06 CRITICAL: Failed to create file system for "onedrive:nkiri/faraway-downs-s01-complete-tv-series": is a directory not a file
 2025/04/19 00:43:19 CRITICAL: Failed to create file system for "onedrive:nkiri/fools-love-s01-complete-korean-drama": is a directory not a file
+2025/04/19 00:45:27 CRITICAL: Failed to create file system for "onedrive:nkiri/my-demon-s01-complete-korean-drama": is a directory not a file
+2025/04/19 00:45:27 ERROR : my-demon-s01-complete-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:45:27 ERROR : my-demon-s01-complete-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:45:27 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:45:40 CRITICAL: Failed to create file system for "onedrive:nkiri/zero-day-s01-complete-tv-series": is a directory not a file
+2025/04/19 00:45:41 CRITICAL: Failed to create file system for "onedrive:nkiri/zero-day-s01-complete-tv-series": is a directory not a file
+2025/04/19 00:45:41 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:46:14 CRITICAL: Failed to create file system for "onedrive:nkiri/power-book-iv-force-s02-complete-tv-series": is a directory not a file
+2025/04/19 00:46:43 CRITICAL: Failed to create file system for "onedrive:nkiri/lost-s01-episode-1-added-korean-drama": is a directory not a file
+2025/04/19 00:46:44 ERROR : lost-s01-episode-1-added-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:46:44 ERROR : lost-s01-episode-1-added-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:46:44 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:46:55 CRITICAL: Failed to create file system for "onedrive:nkiri/green-mothers-club-s01-epi-complete-korean-drama": is a directory not a file
+2025/04/19 00:46:55 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:47:07 ERROR : the-director-who-buys-me-dinner-completekorean-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:47:07 ERROR : the-director-who-buys-me-dinner-completekorean-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:47:07 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:47:08 CRITICAL: Failed to create file system for "onedrive:nkiri/the-director-who-buys-me-dinner-completekorean-drama": is a directory not a file
+2025/04/19 00:47:14 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:47:15 ERROR : the-witcher-blood-origin-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:47:15 ERROR : the-witcher-blood-origin-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:47:15 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 00:47:26 ERROR : Attempt 2/3 succeeded
+2025/04/19 00:47:54 CRITICAL: Failed to create file system for "onedrive:nkiri/singles-inferno-s04-complete-variety-show": is a directory not a file
+2025/04/19 00:47:54 CRITICAL: Failed to create file system for "onedrive:nkiri/parole-examiner-lee-s01-complete-korean-drama": is a directory not a file
+2025/04/19 00:48:16 CRITICAL: Failed to create file system for "onedrive:nkiri/connect-s01-complete-korean-drama": is a directory not a file
