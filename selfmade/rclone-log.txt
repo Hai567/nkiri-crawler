@@ -603,3 +603,10 @@
 2025/04/19 01:48:00 ERROR : Attempt 2/3 succeeded
 2025/04/19 01:48:11 CRITICAL: Failed to create file system for "onedrive:nkiri/monarch-legacy-of-monsters-s01-complete-tv-series": is a directory not a file
 2025/04/19 01:48:26 CRITICAL: Failed to create file system for "onedrive:nkiri/titans-s04-episode-1-3-added-tv-series": is a directory not a file
+2025/04/19 01:49:26 ERROR : star-wars-the-book-of-boba-fett-s01-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:49:26 ERROR : star-wars-the-book-of-boba-fett-s01-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:49:26 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 01:49:27 CRITICAL: Failed to create file system for "onedrive:nkiri/star-wars-the-book-of-boba-fett-s01-complete-tv-series": is a directory not a file
+2025/04/19 01:49:29 ERROR : Attempt 2/3 succeeded
+2025/04/19 01:49:48 CRITICAL: Failed to create file system for "onedrive:nkiri/summer-strike-complete-korean-drama": is a directory not a file
+2025/04/19 01:50:28 CRITICAL: Failed to create file system for "onedrive:nkiri/the-spiderwick-chronicles-s01-complete-tv-series": is a directory not a file
