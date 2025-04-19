@@ -1099,3 +1099,32 @@
 2025/04/19 04:03:28 ERROR : bling-empire-new-york-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 04:03:28 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 04:04:09 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:05:05 ERROR : the-witchs-diner-s01-episode-1-and-2-added-korean-drama E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:05:05 ERROR : the-witchs-diner-s01-episode-1-and-2-added-korean-drama E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:05:05 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:05:06 ERROR : never-have-i-ever-s03-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:05:06 ERROR : never-have-i-ever-s03-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:05:06 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:05:06 ERROR : never-have-i-ever-s03-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:05:06 ERROR : never-have-i-ever-s03-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:05:06 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:05:09 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:05:09 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:05:39 CRITICAL: Failed to create file system for "onedrive:nkiri/the-kardashians-s01-episode-1-added-tv-series": is a directory not a file
+2025/04/19 04:05:43 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:05:52 ERROR : cinderella-and-the-four-knights-complete-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:05:52 ERROR : cinderella-and-the-four-knights-complete-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:05:52 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:05:52 ERROR : cinderella-and-the-four-knights-complete-korean-drama E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:05:52 ERROR : cinderella-and-the-four-knights-complete-korean-drama E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:05:52 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:05:54 ERROR : ms-marvel-s01-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:05:54 ERROR : ms-marvel-s01-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:05:54 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:05:54 ERROR : ms-marvel-s01-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:05:54 ERROR : ms-marvel-s01-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:05:54 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 04:05:54 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:05:54 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:05:56 ERROR : Attempt 2/3 succeeded
+2025/04/19 04:05:56 ERROR : Attempt 2/3 succeeded
