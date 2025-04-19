@@ -1489,3 +1489,17 @@
 2025/04/19 05:44:59 ERROR : level-9-chairman-s01-complete-korean-drama E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 05:44:59 ERROR : level-9-chairman-s01-complete-korean-drama E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
 2025/04/19 05:44:59 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:45:42 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:46:07 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:46:29 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:48:38 ERROR : victorious-s03-s04-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:48:38 ERROR : victorious-s03-s04-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:48:38 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:48:38 ERROR : victorious-s03-s04-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:48:38 ERROR : victorious-s03-s04-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:48:38 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:48:40 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:48:41 ERROR : Attempt 2/3 succeeded
+2025/04/19 05:48:49 ERROR : ragdoll-s01-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:48:49 ERROR : ragdoll-s01-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 05:48:49 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
