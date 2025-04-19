@@ -1575,3 +1575,26 @@
 2025/04/19 06:00:15 ERROR : Attempt 2/3 succeeded
 2025/04/19 06:00:16 CRITICAL: Failed to create file system for "onedrive:nkiri/ginny-and-georgia-s01-s02-complete-tv-series": is a directory not a file
 2025/04/19 06:00:20 CRITICAL: Failed to create file system for "onedrive:nkiri/panhandle-s01-complete-tv-series": is a directory not a file
+2025/04/19 06:01:49 CRITICAL: Failed to create file system for "onedrive:nkiri/the-road-the-tragedy-of-one-episode-1-korean-drama": is a directory not a file
+2025/04/19 06:01:50 CRITICAL: Failed to create file system for "onedrive:nkiri/the-road-the-tragedy-of-one-episode-1-korean-drama": is a directory not a file
+2025/04/19 06:02:36 ERROR : locke-and-key-s03-complete-tv-series E03.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:02:36 ERROR : locke-and-key-s03-complete-tv-series E03.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:02:36 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:02:36 ERROR : locke-and-key-s03-complete-tv-series E02.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:02:36 ERROR : locke-and-key-s03-complete-tv-series E02.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:02:36 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:02:39 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:02:39 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:02:40 ERROR : american-born-chinese-s01-complete-tv-series E06.mkv: Failed to copy: HTTP error 409 (409 Conflict) returned body: "{\"error\":{\"code\":\"resourceModified\",\"message\":\"The resource has changed since the caller last read it; usually an eTag mismatch\"}}"
+2025/04/19 06:02:40 ERROR : american-born-chinese-s01-complete-tv-series E06.mkv: Not deleting source as copy failed: HTTP error 409 (409 Conflict) returned body: "{\"error\":{\"code\":\"resourceModified\",\"message\":\"The resource has changed since the caller last read it; usually an eTag mismatch\"}}"
+2025/04/19 06:02:40 ERROR : Attempt 1/3 failed with 1 errors and: HTTP error 409 (409 Conflict) returned body: "{\"error\":{\"code\":\"resourceModified\",\"message\":\"The resource has changed since the caller last read it; usually an eTag mismatch\"}}"
+2025/04/19 06:02:52 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:02:58 CRITICAL: Failed to create file system for "onedrive:nkiri/the-sandman-s01-complete-tv-series": is a directory not a file
+2025/04/19 06:03:09 ERROR : tracker-s02-complete-tv-series E01.mkv: Failed to copy: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:03:09 ERROR : tracker-s02-complete-tv-series E01.mkv: Not deleting source as copy failed: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:03:09 ERROR : Attempt 1/3 failed with 1 errors and: failed to make directory: nameAlreadyExists: Name already exists
+2025/04/19 06:03:17 CRITICAL: Failed to create file system for "onedrive:nkiri/a-thousand-days-promise-s01-complete-korean-drama": is a directory not a file
+2025/04/19 06:04:09 ERROR : Attempt 2/3 succeeded
+2025/04/19 06:04:34 CRITICAL: Failed to create file system for "onedrive:nkiri/bose-s01-complete-tv-series": is a directory not a file
+2025/04/19 06:04:35 CRITICAL: Failed to create file system for "onedrive:nkiri/the-devils-plan-s01-complete-korean-variety-show": is a directory not a file
+2025/04/19 06:04:35 CRITICAL: Failed to create file system for "onedrive:nkiri/the-devils-plan-s01-complete-korean-variety-show": is a directory not a file
